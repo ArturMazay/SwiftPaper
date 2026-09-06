@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">I-scan, i-convert, i-compress, i-merge — tapos sa ilang segundo.</string>
+    <string name="action_scan">I-scan</string>
+    <string name="action_image_to_pdf">Larawan → PDF</string>
+    <string name="action_compress">I-compress</string>
+    <string name="action_merge">I-merge ang PDF</string>
+    <string name="history">Kasaysayan</string>
+    <string name="go_pro">Go Pro</string>
+    <string name="export">I-export</string>
+    <string name="share">Ibahagi</string>
+    <string name="watch_ad_hd">Manood ng ad para sa HD / walang watermark</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Isang beses na unlock. Walang subscription.</string>
+    <string name="pro_benefit_ads">Alisin ang lahat ng ads</string>
+    <string name="pro_benefit_hd">HD export nang walang watermark</string>
+    <string name="pro_benefit_batch">Batch at walang limitasyong merge</string>
+    <string name="buy_pro">I-unlock ang Pro</string>
+    <string name="already_pro">May Pro ka na</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Bumalik</string>
+    <string name="cd_history">Kasaysayan</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Kunan ang page</string>
+    <string name="cd_move_up">Ilipat pataas</string>
+    <string name="cd_move_down">Ilipat pababa</string>
+    <string name="cd_remove">Alisin</string>
+    <string name="continue_action">Magpatuloy</string>
+    <string name="add_more">Magdagdag pa</string>
+    <string name="working">Ginagawa…</string>
+    <string name="share_with">Ibahagi sa</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Capture mula sa camera papuntang PDF</string>
+    <string name="home_image_to_pdf_subtitle">Mga larawan mula sa gallery sa isang PDF</string>
+    <string name="home_compress_subtitle">Paliitin ang laki ng image file</string>
+    <string name="home_merge_subtitle">Pagsamahin ang maraming PDF</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Kunan ang mga page</string>
+    <string name="camera_access_needed">Kailangan ang access sa camera</string>
+    <string name="camera_permission_message">Payagan ang camera permission para i-scan ang mga dokumento bilang mga PDF page.</string>
+    <string name="grant_permission">Bigyan ng permiso</string>
+    <string name="capture_page">Kunan ang page</string>
+    <string name="capture_failed">Hindi na-capture</string>
+    <string name="scan_preview">Preview ng scan</string>
+    <plurals name="pages_captured">
+        <item quantity="one">%d page ang nakuha</item>
+        <item quantity="other">%d pages ang nakuha</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d page</item>
+        <item quantity="other">%d pages</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Mga kamakailang export</string>
+    <string name="no_history_yet">Wala pang kasaysayan</string>
+    <string name="no_history_message">Makikita rito ang na-export na PDF at naka-compress na mga larawan.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Isang beses</string>
+    <string name="restore_purchase">Ibalik ang pagbili</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Hindi available ang billing (%1$s)</string>
+    <string name="billing_disconnected">Nadiskonekta ang billing</string>
+    <string name="pro_unlocked_dev_fallback">Na-unlock ang Pro (dev fallback — i-configure ang Play product para sa release)</string>
+    <string name="purchase_canceled">Kinansela ang pagbili</string>
+    <string name="pro_unlocked">Na-unlock ang Pro</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Handa nang ibahagi</string>
+    <string name="export_saved_message">Naka-save ang file mo. Ibahagi ngayon, o i-unlock ang HD quality para sa susunod mong export.</string>
+    <string name="file_not_found">Hindi nahanap ang file</string>
+    <string name="hd_unlocked_export_again">Na-unlock ang HD — mag-export ulit para sa HD / walang watermark</string>
+    <string name="hd_unlock_active">Aktibo ang HD unlock para sa susunod mong export</string>
+    <string name="back_to_home">Bumalik sa home</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Magdagdag ng pages para magpatuloy</string>
+    <string name="add_images">Magdagdag ng mga larawan</string>
+    <string name="export_pdf">I-export ang PDF</string>
+    <string name="hd_no_watermark_unlocked">Na-unlock ang HD / walang watermark</string>
+    <string name="no_pages_yet">Wala pang pages</string>
+    <string name="no_pages_message">Magdagdag ng mga larawan para muling ayusin, alisin, at i-export bilang PDF.</string>
+    <string name="page_number">Page %1$d</string>
+    <string name="drag_order_with_arrows">Ayusin ang pagkakasunod gamit ang mga arrow</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Pagsamahin ang mga file ayon sa pagkakasunod</string>
+    <string name="add_pdfs">Magdagdag ng PDF</string>
+    <string name="merge_action">I-merge</string>
+    <string name="no_pdfs_yet">Wala pang PDF</string>
+    <string name="no_pdfs_message">Pumili ng hindi bababa sa dalawang PDF file para pagsamahin sa isang dokumento.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">File %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d file ang napili</item>
+        <item quantity="other">%d files ang napili</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">I-compress ang larawan</string>
+    <string name="compress_subtitle">Balansihin ang quality at laki</string>
+    <string name="choose_image">Pumili ng larawan</string>
+    <string name="change_image">Palitan ang larawan</string>
+    <string name="no_image_selected">Walang napiling larawan</string>
+    <string name="no_image_message">Pumili ng larawan para i-compress at i-export bilang JPEG.</string>
+    <string name="quality_percent">Quality: %1$d%%</string>
+    <string name="quality_hint">Mas mababang quality ay mas maliit na file.</string>
+    <string name="compress_and_export">I-compress at i-export</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Magdagdag ng kahit isang file</string>
+    <string name="export_failed">Hindi na-export</string>
+    <string name="error_unable_to_decode_image">Hindi ma-decode ang larawan</string>
+</resources>

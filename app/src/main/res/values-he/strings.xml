@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">סרוק, המר, דחוס, מזג — מוכן תוך שניות.</string>
+    <string name="action_scan">סריקה</string>
+    <string name="action_image_to_pdf">תמונה → PDF</string>
+    <string name="action_compress">דחיסה</string>
+    <string name="action_merge">מיזוג PDF</string>
+    <string name="history">היסטוריה</string>
+    <string name="go_pro">שדרג ל-Pro</string>
+    <string name="export">ייצוא</string>
+    <string name="share">שיתוף</string>
+    <string name="watch_ad_hd">צפה בפרסומת ל-HD / ללא סימן מים</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">רכישה חד-פעמית. ללא מנויים.</string>
+    <string name="pro_benefit_ads">הסרת כל הפרסומות</string>
+    <string name="pro_benefit_hd">ייצוא HD ללא סימן מים</string>
+    <string name="pro_benefit_batch">מיזוגים מרובים וללא הגבלה</string>
+    <string name="buy_pro">פתח Pro</string>
+    <string name="already_pro">יש לך Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">חזרה</string>
+    <string name="cd_history">היסטוריה</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">צלם עמוד</string>
+    <string name="cd_move_up">הזז למעלה</string>
+    <string name="cd_move_down">הזז למטה</string>
+    <string name="cd_remove">הסר</string>
+    <string name="continue_action">המשך</string>
+    <string name="add_more">הוסף עוד</string>
+    <string name="working">בעבודה…</string>
+    <string name="share_with">שתף עם</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">צילום במצלמה ל-PDF</string>
+    <string name="home_image_to_pdf_subtitle">תמונות מהגלריה ל-PDF אחד</string>
+    <string name="home_compress_subtitle">הקטנת גודל קובץ תמונה</string>
+    <string name="home_merge_subtitle">שילוב מספר קובצי PDF</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">צילום עמודים</string>
+    <string name="camera_access_needed">נדרשת גישה למצלמה</string>
+    <string name="camera_permission_message">אפשר הרשאת מצלמה כדי לסרוק מסמכים לעמודי PDF.</string>
+    <string name="grant_permission">תן הרשאה</string>
+    <string name="capture_page">צלם עמוד</string>
+    <string name="capture_failed">הצילום נכשל</string>
+    <string name="scan_preview">תצוגה מקדימה של הסריקה</string>
+
+    <plurals name="pages_captured">
+        <item quantity="one">עמוד %d נלכד</item>
+        <item quantity="two">%d עמודים נלכדו</item>
+        <item quantity="many">%d עמודים נלכדו</item>
+        <item quantity="other">%d עמודים נלכדו</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">עמוד %d</item>
+        <item quantity="two">%d עמודים</item>
+        <item quantity="many">%d עמודים</item>
+        <item quantity="other">%d עמודים</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">ייצואים אחרונים</string>
+    <string name="no_history_yet">אין עדיין היסטוריה</string>
+    <string name="no_history_message">קובצי PDF מיוצאים ותמונות דחוסות יופיעו כאן.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">חד-פעמי</string>
+    <string name="restore_purchase">שחזר רכישה</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">חיוב אינו זמין (%1$s)</string>
+    <string name="billing_disconnected">החיוב מנותק</string>
+    <string name="pro_unlocked_dev_fallback">Pro נפתח (גיבוי לפיתוח — הגדר מוצר Play לגרסה)</string>
+    <string name="purchase_canceled">הרכישה בוטלה</string>
+    <string name="pro_unlocked">Pro נפתח</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">מוכן לשיתוף</string>
+    <string name="export_saved_message">הקובץ נשמר. שתף אותו עכשיו, או פתח איכות HD לייצוא הבא.</string>
+    <string name="file_not_found">הקובץ לא נמצא</string>
+    <string name="hd_unlocked_export_again">HD נפתח — ייצא שוב ל-HD / ללא סימן מים</string>
+    <string name="hd_unlock_active">פתיחת HD פעילה לייצוא הבא</string>
+    <string name="back_to_home">חזרה לדף הבית</string>
+    <string name="export_default_name">ייצוא</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">הוסף עמודים כדי להמשיך</string>
+    <string name="add_images">הוסף תמונות</string>
+    <string name="export_pdf">ייצא PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / ללא סימן מים נפתח</string>
+    <string name="no_pages_yet">אין עדיין עמודים</string>
+    <string name="no_pages_message">הוסף תמונות כדי לסדר מחדש, להסיר ולייצא כ-PDF.</string>
+    <string name="page_number">עמוד %1$d</string>
+    <string name="drag_order_with_arrows">שנה סדר עם חצים</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">שלב קבצים לפי הסדר</string>
+    <string name="add_pdfs">הוסף קובצי PDF</string>
+    <string name="merge_action">מזג</string>
+    <string name="no_pdfs_yet">אין עדיין קובצי PDF</string>
+    <string name="no_pdfs_message">בחר לפחות שני קובצי PDF למיזוג למסמך אחד.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">קובץ %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">קובץ %d נבחר</item>
+        <item quantity="two">%d קבצים נבחרו</item>
+        <item quantity="many">%d קבצים נבחרו</item>
+        <item quantity="other">%d קבצים נבחרו</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">דחיסת תמונה</string>
+    <string name="compress_subtitle">איזון בין איכות לגודל</string>
+    <string name="choose_image">בחר תמונה</string>
+    <string name="change_image">החלף תמונה</string>
+    <string name="no_image_selected">לא נבחרה תמונה</string>
+    <string name="no_image_message">בחר תמונה לדחיסה ולייצוא כ-JPEG.</string>
+    <string name="quality_percent">איכות: %1$d%%</string>
+    <string name="quality_hint">איכות נמוכה יותר יוצרת קובץ קטן יותר.</string>
+    <string name="compress_and_export">דחוס וייצא</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">הוסף לפחות קובץ אחד</string>
+    <string name="export_failed">הייצוא נכשל</string>
+    <string name="error_unable_to_decode_image">לא ניתן לפענח את התמונה</string>
+</resources>

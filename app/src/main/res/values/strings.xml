@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Scan, convert, compress, merge — done in seconds.</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_image_to_pdf">Image → PDF</string>
+    <string name="action_compress">Compress</string>
+    <string name="action_merge">Merge PDF</string>
+    <string name="history">History</string>
+    <string name="go_pro">Go Pro</string>
+    <string name="export">Export</string>
+    <string name="share">Share</string>
+    <string name="watch_ad_hd">Watch ad for HD / no watermark</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">One-time unlock. No subscriptions.</string>
+    <string name="pro_benefit_ads">Remove all ads</string>
+    <string name="pro_benefit_hd">HD exports without watermark</string>
+    <string name="pro_benefit_batch">Batch &amp; unlimited merges</string>
+    <string name="buy_pro">Unlock Pro</string>
+    <string name="already_pro">You have Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Back</string>
+    <string name="cd_history">History</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Capture page</string>
+    <string name="cd_move_up">Move up</string>
+    <string name="cd_move_down">Move down</string>
+    <string name="cd_remove">Remove</string>
+    <string name="continue_action">Continue</string>
+    <string name="add_more">Add more</string>
+    <string name="working">Working…</string>
+    <string name="share_with">Share with</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Camera capture to PDF</string>
+    <string name="home_image_to_pdf_subtitle">Gallery photos to one PDF</string>
+    <string name="home_compress_subtitle">Shrink image file size</string>
+    <string name="home_merge_subtitle">Combine multiple PDFs</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Capture pages</string>
+    <string name="camera_access_needed">Camera access needed</string>
+    <string name="camera_permission_message">Allow camera permission to scan documents into PDF pages.</string>
+    <string name="grant_permission">Grant permission</string>
+    <string name="capture_page">Capture page</string>
+    <string name="capture_failed">Capture failed</string>
+    <string name="scan_preview">Scan preview</string>
+    <plurals name="pages_captured">
+        <item quantity="one">%d page captured</item>
+        <item quantity="other">%d pages captured</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d page</item>
+        <item quantity="other">%d pages</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Recent exports</string>
+    <string name="no_history_yet">No history yet</string>
+    <string name="no_history_message">Exported PDFs and compressed images will show up here.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">One-time</string>
+    <string name="restore_purchase">Restore purchase</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Billing unavailable (%1$s)</string>
+    <string name="billing_disconnected">Billing disconnected</string>
+    <string name="pro_unlocked_dev_fallback">Pro unlocked (dev fallback — configure Play product for release)</string>
+    <string name="purchase_canceled">Purchase canceled</string>
+    <string name="pro_unlocked">Pro unlocked</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Ready to share</string>
+    <string name="export_saved_message">Your file is saved. Share it now, or unlock HD quality for your next export.</string>
+    <string name="file_not_found">File not found</string>
+    <string name="hd_unlocked_export_again">HD unlocked — export again for HD / no watermark</string>
+    <string name="hd_unlock_active">HD unlock active for your next export</string>
+    <string name="back_to_home">Back to home</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Add pages to continue</string>
+    <string name="add_images">Add images</string>
+    <string name="export_pdf">Export PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / no watermark unlocked</string>
+    <string name="no_pages_yet">No pages yet</string>
+    <string name="no_pages_message">Add photos to reorder, remove, and export as a PDF.</string>
+    <string name="page_number">Page %1$d</string>
+    <string name="drag_order_with_arrows">Drag order with arrows</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Combine files in order</string>
+    <string name="add_pdfs">Add PDFs</string>
+    <string name="merge_action">Merge</string>
+    <string name="no_pdfs_yet">No PDFs yet</string>
+    <string name="no_pdfs_message">Pick at least two PDF files to merge into one document.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">File %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d file selected</item>
+        <item quantity="other">%d files selected</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Compress image</string>
+    <string name="compress_subtitle">Balance quality and size</string>
+    <string name="choose_image">Choose image</string>
+    <string name="change_image">Change image</string>
+    <string name="no_image_selected">No image selected</string>
+    <string name="no_image_message">Pick a photo to compress and export as JPEG.</string>
+    <string name="quality_percent">Quality: %1$d%%</string>
+    <string name="quality_hint">Lower quality creates a smaller file.</string>
+    <string name="compress_and_export">Compress &amp; export</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Add at least one file</string>
+    <string name="export_failed">Export failed</string>
+    <string name="error_unable_to_decode_image">Unable to decode image</string>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Skano, konverto, kompreso, bashko — gati brenda sekondash.</string>
+    <string name="action_scan">Skano</string>
+    <string name="action_image_to_pdf">Imazh → PDF</string>
+    <string name="action_compress">Kompreso</string>
+    <string name="action_merge">Bashko PDF</string>
+    <string name="history">Historia</string>
+    <string name="go_pro">Kalo te Pro</string>
+    <string name="export">Eksporto</string>
+    <string name="share">Ndaj</string>
+    <string name="watch_ad_hd">Shiko reklamë për HD / pa ujëshenjë</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Blerje njëherëshe. Pa abonime.</string>
+    <string name="pro_benefit_ads">Hiq të gjitha reklamat</string>
+    <string name="pro_benefit_hd">Eksport HD pa ujëshenjë</string>
+    <string name="pro_benefit_batch">Bashkime në grup dhe të pakufizuara</string>
+    <string name="buy_pro">Zhblloko Pro</string>
+    <string name="already_pro">Ke Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Mbrapa</string>
+    <string name="cd_history">Historia</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Kap faqen</string>
+    <string name="cd_move_up">Lëviz lart</string>
+    <string name="cd_move_down">Lëviz poshtë</string>
+    <string name="cd_remove">Hiq</string>
+    <string name="continue_action">Vazhdo</string>
+    <string name="add_more">Shto më shumë</string>
+    <string name="working">Duke punuar…</string>
+    <string name="share_with">Ndaje me</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Kapje me kamerë në PDF</string>
+    <string name="home_image_to_pdf_subtitle">Foto galerie në një PDF</string>
+    <string name="home_compress_subtitle">Zvogëlo madhësinë e skedarit të imazhit</string>
+    <string name="home_merge_subtitle">Bashko disa PDF</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Kap faqet</string>
+    <string name="camera_access_needed">Nevojitet qasje në kamerë</string>
+    <string name="camera_permission_message">Lejo lejen e kamerës për të skanuar dokumente në faqe PDF.</string>
+    <string name="grant_permission">Jep lejen</string>
+    <string name="capture_page">Kap faqen</string>
+    <string name="capture_failed">Kapja dështoi</string>
+    <string name="scan_preview">Paraqitja e skanimit</string>
+
+    <plurals name="pages_captured">
+        <item quantity="one">%d faqe u kap</item>
+        <item quantity="other">%d faqe u kapën</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d faqe</item>
+        <item quantity="other">%d faqe</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Eksportet e fundit</string>
+    <string name="no_history_yet">Ende nuk ka histori</string>
+    <string name="no_history_message">PDF-të e eksportuara dhe imazhet e kompresuara do të shfaqen këtu.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Njëherëshe</string>
+    <string name="restore_purchase">Rikthe blerjen</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Faturimi i padisponueshëm (%1$s)</string>
+    <string name="billing_disconnected">Faturimi u shkëput</string>
+    <string name="pro_unlocked_dev_fallback">Pro u zhbllokua (rezervë zhvillimi — konfiguro produktin Play për publikim)</string>
+    <string name="purchase_canceled">Blerja u anulua</string>
+    <string name="pro_unlocked">Pro u zhbllokua</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Gati për ndarje</string>
+    <string name="export_saved_message">Skedari yt u ruajt. Ndaje tani, ose zhblloko cilësinë HD për eksportin tjetër.</string>
+    <string name="file_not_found">Skedari nuk u gjet</string>
+    <string name="hd_unlocked_export_again">HD u zhbllokua — eksporto përsëri për HD / pa ujëshenjë</string>
+    <string name="hd_unlock_active">Zhbllokimi HD aktiv për eksportin tjetër</string>
+    <string name="back_to_home">Kthehu në krye</string>
+    <string name="export_default_name">eksport</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Shto faqe për të vazhduar</string>
+    <string name="add_images">Shto imazhe</string>
+    <string name="export_pdf">Eksporto PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / pa ujëshenjë u zhbllokua</string>
+    <string name="no_pages_yet">Ende nuk ka faqe</string>
+    <string name="no_pages_message">Shto foto për t\'i rirenditur, hequr dhe eksportuar si PDF.</string>
+    <string name="page_number">Faqja %1$d</string>
+    <string name="drag_order_with_arrows">Ndrysho rendin me shigjeta</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Bashko skedarët me radhë</string>
+    <string name="add_pdfs">Shto PDF</string>
+    <string name="merge_action">Bashko</string>
+    <string name="no_pdfs_yet">Ende nuk ka PDF</string>
+    <string name="no_pdfs_message">Zgjidh të paktën dy skedarë PDF për t\'i bashkuar në një dokument.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Skedari %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d skedar u zgjodh</item>
+        <item quantity="other">%d skedarë u zgjodhën</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Kompreso imazhin</string>
+    <string name="compress_subtitle">Balanco cilësinë dhe madhësinë</string>
+    <string name="choose_image">Zgjidh imazhin</string>
+    <string name="change_image">Ndrysho imazhin</string>
+    <string name="no_image_selected">Nuk u zgjodh imazh</string>
+    <string name="no_image_message">Zgjidh një foto për ta kompresuar dhe eksportuar si JPEG.</string>
+    <string name="quality_percent">Cilësia: %1$d%%</string>
+    <string name="quality_hint">Cilësia më e ulët krijon skedar më të vogël.</string>
+    <string name="compress_and_export">Kompreso dhe eksporto</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Shto të paktën një skedar</string>
+    <string name="export_failed">Eksporti dështoi</string>
+    <string name="error_unable_to_decode_image">Nuk mund të dekodohet imazhi</string>
+</resources>

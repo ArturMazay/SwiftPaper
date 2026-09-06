@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Skenuokite, konvertuokite, suspauskite, sujunkite — per kelias sekundes.</string>
+    <string name="action_scan">Skenuoti</string>
+    <string name="action_image_to_pdf">Vaizdas → PDF</string>
+    <string name="action_compress">Suspausti</string>
+    <string name="action_merge">Sujungti PDF</string>
+    <string name="history">Istorija</string>
+    <string name="go_pro">Pereiti prie Pro</string>
+    <string name="export">Eksportuoti</string>
+    <string name="share">Dalytis</string>
+    <string name="watch_ad_hd">Žiūrėti reklamą HD / be vandens ženklo</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Vienkartinis pirkimas. Be prenumeratų.</string>
+    <string name="pro_benefit_ads">Pašalinti visas reklamas</string>
+    <string name="pro_benefit_hd">HD eksportas be vandens ženklo</string>
+    <string name="pro_benefit_batch">Paketinis ir neribotas sujungimas</string>
+    <string name="buy_pro">Atrakinti Pro</string>
+    <string name="already_pro">Turite Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Atgal</string>
+    <string name="cd_history">Istorija</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Užfiksuoti puslapį</string>
+    <string name="cd_move_up">Perkelti aukštyn</string>
+    <string name="cd_move_down">Perkelti žemyn</string>
+    <string name="cd_remove">Pašalinti</string>
+    <string name="continue_action">Tęsti</string>
+    <string name="add_more">Pridėti daugiau</string>
+    <string name="working">Apdorojama…</string>
+    <string name="share_with">Dalytis su</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Fotografavimas kamera į PDF</string>
+    <string name="home_image_to_pdf_subtitle">Galerijos nuotraukos į vieną PDF</string>
+    <string name="home_compress_subtitle">Sumažinti vaizdo failo dydį</string>
+    <string name="home_merge_subtitle">Sujungti kelis PDF</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Užfiksuoti puslapius</string>
+    <string name="camera_access_needed">Reikia prieigos prie kameros</string>
+    <string name="camera_permission_message">Leiskite kameros leidimą, kad skenuotumėte dokumentus į PDF puslapius.</string>
+    <string name="grant_permission">Suteikti leidimą</string>
+    <string name="capture_page">Užfiksuoti puslapį</string>
+    <string name="capture_failed">Užfiksuoti nepavyko</string>
+    <string name="scan_preview">Skenavimo peržiūra</string>
+
+    <plurals name="pages_captured">
+        <item quantity="one">Užfiksuotas %d puslapis</item>
+        <item quantity="few">Užfiksuoti %d puslapiai</item>
+        <item quantity="many">Užfiksuota %d puslapio</item>
+        <item quantity="other">Užfiksuota %d puslapių</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d puslapis</item>
+        <item quantity="few">%d puslapiai</item>
+        <item quantity="many">%d puslapio</item>
+        <item quantity="other">%d puslapių</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Naujausi eksportai</string>
+    <string name="no_history_yet">Istorijos dar nėra</string>
+    <string name="no_history_message">Eksportuoti PDF ir suspausti vaizdai bus rodomi čia.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Vienkartinis</string>
+    <string name="restore_purchase">Atkurti pirkimą</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Atsiskaitymas nepasiekiamas (%1$s)</string>
+    <string name="billing_disconnected">Atsiskaitymas atjungtas</string>
+    <string name="pro_unlocked_dev_fallback">Pro atrakintas (kūrėjo atsarginis variantas — sukonfigūruokite Play produktą leidimui)</string>
+    <string name="purchase_canceled">Pirkimas atšauktas</string>
+    <string name="pro_unlocked">Pro atrakintas</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Paruošta dalytis</string>
+    <string name="export_saved_message">Failas išsaugotas. Pasidalinkite dabar arba atrakinkite HD kokybę kitam eksportui.</string>
+    <string name="file_not_found">Failas nerastas</string>
+    <string name="hd_unlocked_export_again">HD atrakintas — eksportuokite dar kartą HD / be vandens ženklo</string>
+    <string name="hd_unlock_active">HD atrakavimas aktyvus kitam eksportui</string>
+    <string name="back_to_home">Grįžti į pradžią</string>
+    <string name="export_default_name">eksportas</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Pridėkite puslapių, kad tęstumėte</string>
+    <string name="add_images">Pridėti vaizdų</string>
+    <string name="export_pdf">Eksportuoti PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / be vandens ženklo atrakinta</string>
+    <string name="no_pages_yet">Puslapių dar nėra</string>
+    <string name="no_pages_message">Pridėkite nuotraukų, kad pertvarkytumėte, pašalintumėte ir eksportuotumėte kaip PDF.</string>
+    <string name="page_number">Puslapis %1$d</string>
+    <string name="drag_order_with_arrows">Keiskite tvarką rodyklėmis</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Sujunkite failus eilės tvarka</string>
+    <string name="add_pdfs">Pridėti PDF</string>
+    <string name="merge_action">Sujungti</string>
+    <string name="no_pdfs_yet">PDF dar nėra</string>
+    <string name="no_pdfs_message">Pasirinkite bent du PDF failus, kad sujungtumėte į vieną dokumentą.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Failas %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">Pasirinktas %d failas</item>
+        <item quantity="few">Pasirinkti %d failai</item>
+        <item quantity="many">Pasirinkta %d failo</item>
+        <item quantity="other">Pasirinkta %d failų</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Suspausti vaizdą</string>
+    <string name="compress_subtitle">Kokybės ir dydžio balansas</string>
+    <string name="choose_image">Pasirinkti vaizdą</string>
+    <string name="change_image">Pakeisti vaizdą</string>
+    <string name="no_image_selected">Vaizdas nepasirinktas</string>
+    <string name="no_image_message">Pasirinkite nuotrauką suspaudimui ir eksportui kaip JPEG.</string>
+    <string name="quality_percent">Kokybė: %1$d%%</string>
+    <string name="quality_hint">Žemesnė kokybė sukuria mažesnį failą.</string>
+    <string name="compress_and_export">Suspausti ir eksportuoti</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Pridėkite bent vieną failą</string>
+    <string name="export_failed">Eksportuoti nepavyko</string>
+    <string name="error_unable_to_decode_image">Nepavyko dekoduoti vaizdo</string>
+</resources>

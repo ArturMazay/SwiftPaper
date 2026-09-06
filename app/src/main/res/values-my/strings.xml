@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">စကင်န်၊ ပြောင်း၊ ချုံ့၊ ပေါင်း — စက္ကန့်ပိုင်းအတွင်း ပြီးပါပြီ။</string>
+    <string name="action_scan">စကင်န်</string>
+    <string name="action_image_to_pdf">ပုံ → PDF</string>
+    <string name="action_compress">ချုံ့မည်</string>
+    <string name="action_merge">PDF ပေါင်းမည်</string>
+    <string name="history">မှတ်တမ်း</string>
+    <string name="go_pro">Go Pro</string>
+    <string name="export">ထုတ်မည်</string>
+    <string name="share">မျှဝေမည်</string>
+    <string name="watch_ad_hd">HD / ရေစာမပါရရန် ကြော်ငြာကြည့်ပါ</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">တစ်ကြိမ်သာ ဖွင့်ပါ။ စာရင်းသွင်းရန် မလိုပါ။</string>
+    <string name="pro_benefit_ads">ကြော်ငြာအားလုံး ဖယ်ရှားမည်</string>
+    <string name="pro_benefit_hd">ရေစာမပါဘဲ HD ထုတ်မည်</string>
+    <string name="pro_benefit_batch">အုပ်စုလိုက်နှင့် အကန့်အသတ်မရှိ ပေါင်းစည်းမှုများ</string>
+    <string name="buy_pro">Pro ဖွင့်မည်</string>
+    <string name="already_pro">သင့်တွင် Pro ရှိပြီးသားဖြစ်သည်</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">နောက်သို့</string>
+    <string name="cd_history">မှတ်တမ်း</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">စာမျက်နှာ ရိုက်ယူမည်</string>
+    <string name="cd_move_up">အပေါ်သို့ ရွှေ့မည်</string>
+    <string name="cd_move_down">အောက်သို့ ရွှေ့မည်</string>
+    <string name="cd_remove">ဖယ်ရှားမည်</string>
+    <string name="continue_action">ဆက်လုပ်မည်</string>
+    <string name="add_more">ထပ်ထည့်မည်</string>
+    <string name="working">လုပ်ဆောင်နေသည်…</string>
+    <string name="share_with">မျှဝေရန်</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">ကင်မရာမှ ရိုက်၍ PDF သို့</string>
+    <string name="home_image_to_pdf_subtitle">ဂယ်လရီပုံများကို PDF တစ်ခုသို့</string>
+    <string name="home_compress_subtitle">ပုံဖိုင်အရွယ်အစား လျှော့မည်</string>
+    <string name="home_merge_subtitle">PDF အများအပြား ပေါင်းမည်</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">စာမျက်နှာများ ရိုက်ယူမည်</string>
+    <string name="camera_access_needed">ကင်မရာအသုံးပြုခွင့် လိုအပ်သည်</string>
+    <string name="camera_permission_message">စာရွက်များကို PDF စာမျက်နှာအဖြစ် စကင်န်ရန် ကင်မရာခွင့်ပြုချက် ပေးပါ။</string>
+    <string name="grant_permission">ခွင့်ပြုချက် ပေးမည်</string>
+    <string name="capture_page">စာမျက်နှာ ရိုက်ယူမည်</string>
+    <string name="capture_failed">ရိုက်ယူမှု မအောင်မြင်ပါ</string>
+    <string name="scan_preview">စကင်န် အစမ်းကြည့်ရှု</string>
+    <plurals name="pages_captured">
+        <item quantity="one">စာမျက်နှာ %d ခု ရိုက်ယူပြီး</item>
+        <item quantity="other">စာမျက်နှာ %d ခု ရိုက်ယူပြီး</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">စာမျက်နှာ %d ခု</item>
+        <item quantity="other">စာမျက်နှာ %d ခု</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">မကြာသေးမီ ထုတ်ထားသည်များ</string>
+    <string name="no_history_yet">မှတ်တမ်း မရှိသေးပါ</string>
+    <string name="no_history_message">ထုတ်ထားသော PDF နှင့် ချုံ့ထားသော ပုံများ ဤနေရာတွင် ပေါ်မည်။</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">တစ်ကြိမ်</string>
+    <string name="restore_purchase">ဝယ်ယူမှု ပြန်ယူမည်</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">ငွေရှင်းခြင်း မရနိုင်ပါ (%1$s)</string>
+    <string name="billing_disconnected">ငွေရှင်းခြင်း ချိတ်ဆက်မှု ပြတ်နေသည်</string>
+    <string name="pro_unlocked_dev_fallback">Pro ဖွင့်ပြီး (dev fallback — ထုတ်ဝေရန် Play ထုတ်ကုန်ကို ပြင်ဆင်ပါ)</string>
+    <string name="purchase_canceled">ဝယ်ယူမှု ပယ်ဖျက်ပြီး</string>
+    <string name="pro_unlocked">Pro ဖွင့်ပြီး</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">မျှဝေရန် အဆင်သင့်</string>
+    <string name="export_saved_message">သင့်ဖိုင်ကို သိမ်းပြီးပါပြီ။ ယခု မျှဝေပါ၊ သို့မဟုတ် နောက်ထုတ်မှုအတွက် HD အရည်အသွေး ဖွင့်ပါ။</string>
+    <string name="file_not_found">ဖိုင် မတွေ့ပါ</string>
+    <string name="hd_unlocked_export_again">HD ဖွင့်ပြီး — HD / ရေစာမပါရန် ထပ်ထုတ်ပါ</string>
+    <string name="hd_unlock_active">နောက်ထုတ်မှုအတွက် HD ဖွင့်ထားသည်</string>
+    <string name="back_to_home">ပင်မစာမျက်နှာသို့ ပြန်မည်</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">ဆက်လုပ်ရန် စာမျက်နှာများ ထည့်ပါ</string>
+    <string name="add_images">ပုံများ ထည့်မည်</string>
+    <string name="export_pdf">PDF ထုတ်မည်</string>
+    <string name="hd_no_watermark_unlocked">HD / ရေစာမပါ ဖွင့်ပြီး</string>
+    <string name="no_pages_yet">စာမျက်နှာ မရှိသေးပါ</string>
+    <string name="no_pages_message">အစဉ်ပြင်ရန်၊ ဖယ်ရန်နှင့် PDF အဖြစ် ထုတ်ရန် ပုံများ ထည့်ပါ။</string>
+    <string name="page_number">စာမျက်နှာ %1$d</string>
+    <string name="drag_order_with_arrows">မြှားများဖြင့် အစဉ်ပြင်ပါ</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">အစဉ်အတိုင်း ဖိုင်များ ပေါင်းမည်</string>
+    <string name="add_pdfs">PDF ထည့်မည်</string>
+    <string name="merge_action">ပေါင်းမည်</string>
+    <string name="no_pdfs_yet">PDF မရှိသေးပါ</string>
+    <string name="no_pdfs_message">စာရွက်တစ်ခုအဖြစ် ပေါင်းရန် PDF ဖိုင် အနည်းဆုံး နှစ်ခု ရွေးပါ။</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">ဖိုင် %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">ဖိုင် %d ခု ရွေးထားသည်</item>
+        <item quantity="other">ဖိုင် %d ခု ရွေးထားသည်</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">ပုံ ချုံ့မည်</string>
+    <string name="compress_subtitle">အရည်အသွေးနှင့် အရွယ်အစား ချိန်ညှိမည်</string>
+    <string name="choose_image">ပုံ ရွေးမည်</string>
+    <string name="change_image">ပုံ ပြောင်းမည်</string>
+    <string name="no_image_selected">ပုံ မရွေးရသေးပါ</string>
+    <string name="no_image_message">ချုံ့၍ JPEG အဖြစ် ထုတ်ရန် ပုံတစ်ပုံ ရွေးပါ။</string>
+    <string name="quality_percent">အရည်အသွေး: %1$d%%</string>
+    <string name="quality_hint">အရည်အသွေး နိမ့်လျှင် ဖိုင် ပိုသေးသည်။</string>
+    <string name="compress_and_export">ချုံ့ပြီး ထုတ်မည်</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">ဖိုင် အနည်းဆုံး တစ်ခု ထည့်ပါ</string>
+    <string name="export_failed">ထုတ်ယူမှု မအောင်မြင်ပါ</string>
+    <string name="error_unable_to_decode_image">ပုံကို ပြန်ဖော်၍ မရပါ</string>
+</resources>

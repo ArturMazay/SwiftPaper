@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">امسح، حوّل، اضغط، ادمج — ينتهي في ثوانٍ.</string>
+    <string name="action_scan">مسح</string>
+    <string name="action_image_to_pdf">صورة → PDF</string>
+    <string name="action_compress">ضغط</string>
+    <string name="action_merge">دمج PDF</string>
+    <string name="history">السجل</string>
+    <string name="go_pro">الترقية إلى Pro</string>
+    <string name="export">تصدير</string>
+    <string name="share">مشاركة</string>
+    <string name="watch_ad_hd">شاهد إعلانًا للحصول على HD / بدون علامة مائية</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">شراء لمرة واحدة. بدون اشتراكات.</string>
+    <string name="pro_benefit_ads">إزالة جميع الإعلانات</string>
+    <string name="pro_benefit_hd">تصدير بدقة HD بدون علامة مائية</string>
+    <string name="pro_benefit_batch">دمج جماعي وغير محدود</string>
+    <string name="buy_pro">فتح Pro</string>
+    <string name="already_pro">لديك Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">رجوع</string>
+    <string name="cd_history">السجل</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">التقاط صفحة</string>
+    <string name="cd_move_up">تحريك لأعلى</string>
+    <string name="cd_move_down">تحريك لأسفل</string>
+    <string name="cd_remove">إزالة</string>
+    <string name="continue_action">متابعة</string>
+    <string name="add_more">إضافة المزيد</string>
+    <string name="working">جارٍ العمل…</string>
+    <string name="share_with">مشاركة عبر</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">التقاط بالكاميرا إلى PDF</string>
+    <string name="home_image_to_pdf_subtitle">صور المعرض إلى PDF واحد</string>
+    <string name="home_compress_subtitle">تصغير حجم ملف الصورة</string>
+    <string name="home_merge_subtitle">دمج عدة ملفات PDF</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">التقاط الصفحات</string>
+    <string name="camera_access_needed">يلزم الوصول إلى الكاميرا</string>
+    <string name="camera_permission_message">اسمح بإذن الكاميرا لمسح المستندات إلى صفحات PDF.</string>
+    <string name="grant_permission">منح الإذن</string>
+    <string name="capture_page">التقاط صفحة</string>
+    <string name="capture_failed">فشل الالتقاط</string>
+    <string name="scan_preview">معاينة المسح</string>
+
+    <plurals name="pages_captured">
+        <item quantity="zero">لم تُلتقط أي صفحة</item>
+        <item quantity="one">تم التقاط صفحة واحدة</item>
+        <item quantity="two">تم التقاط صفحتين</item>
+        <item quantity="few">تم التقاط %d صفحات</item>
+        <item quantity="many">تم التقاط %d صفحة</item>
+        <item quantity="other">تم التقاط %d صفحة</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="zero">%d صفحة</item>
+        <item quantity="one">صفحة واحدة</item>
+        <item quantity="two">صفحتان</item>
+        <item quantity="few">%d صفحات</item>
+        <item quantity="many">%d صفحة</item>
+        <item quantity="other">%d صفحة</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">عمليات التصدير الأخيرة</string>
+    <string name="no_history_yet">لا يوجد سجل بعد</string>
+    <string name="no_history_message">ستظهر هنا ملفات PDF المُصدَّرة والصور المضغوطة.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">مرة واحدة</string>
+    <string name="restore_purchase">استعادة الشراء</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">الفوترة غير متاحة (%1$s)</string>
+    <string name="billing_disconnected">انقطع اتصال الفوترة</string>
+    <string name="pro_unlocked_dev_fallback">تم فتح Pro (احتياطي للتطوير — اضبط منتج Play للإصدار)</string>
+    <string name="purchase_canceled">تم إلغاء الشراء</string>
+    <string name="pro_unlocked">تم فتح Pro</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">جاهز للمشاركة</string>
+    <string name="export_saved_message">تم حفظ ملفك. شاركه الآن، أو افتح جودة HD لعملية التصدير التالية.</string>
+    <string name="file_not_found">الملف غير موجود</string>
+    <string name="hd_unlocked_export_again">تم فتح HD — صدّر مرة أخرى لـ HD / بدون علامة مائية</string>
+    <string name="hd_unlock_active">فتح HD نشط لعملية التصدير التالية</string>
+    <string name="back_to_home">العودة إلى الرئيسية</string>
+    <string name="export_default_name">تصدير</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">أضف صفحات للمتابعة</string>
+    <string name="add_images">إضافة صور</string>
+    <string name="export_pdf">تصدير PDF</string>
+    <string name="hd_no_watermark_unlocked">تم فتح HD / بدون علامة مائية</string>
+    <string name="no_pages_yet">لا توجد صفحات بعد</string>
+    <string name="no_pages_message">أضف صورًا لإعادة الترتيب والإزالة والتصدير كملف PDF.</string>
+    <string name="page_number">الصفحة %1$d</string>
+    <string name="drag_order_with_arrows">غيّر الترتيب بالأسهم</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">ادمج الملفات بالترتيب</string>
+    <string name="add_pdfs">إضافة ملفات PDF</string>
+    <string name="merge_action">دمج</string>
+    <string name="no_pdfs_yet">لا توجد ملفات PDF بعد</string>
+    <string name="no_pdfs_message">اختر ملفي PDF على الأقل لدمجهما في مستند واحد.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">الملف %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="zero">لم يُحدد أي ملف</item>
+        <item quantity="one">تم تحديد ملف واحد</item>
+        <item quantity="two">تم تحديد ملفين</item>
+        <item quantity="few">تم تحديد %d ملفات</item>
+        <item quantity="many">تم تحديد %d ملفًا</item>
+        <item quantity="other">تم تحديد %d ملف</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">ضغط الصورة</string>
+    <string name="compress_subtitle">وازن بين الجودة والحجم</string>
+    <string name="choose_image">اختر صورة</string>
+    <string name="change_image">تغيير الصورة</string>
+    <string name="no_image_selected">لم يتم اختيار صورة</string>
+    <string name="no_image_message">اختر صورة لضغطها وتصديرها بصيغة JPEG.</string>
+    <string name="quality_percent">الجودة: %1$d%%</string>
+    <string name="quality_hint">الجودة الأقل تنتج ملفًا أصغر.</string>
+    <string name="compress_and_export">ضغط وتصدير</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">أضف ملفًا واحدًا على الأقل</string>
+    <string name="export_failed">فشل التصدير</string>
+    <string name="error_unable_to_decode_image">تعذر فك تشفير الصورة</string>
+</resources>

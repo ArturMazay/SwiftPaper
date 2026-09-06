@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Skanna, konvertera, komprimera, sammanfoga — klart på sekunder.</string>
+    <string name="action_scan">Skanna</string>
+    <string name="action_image_to_pdf">Bild → PDF</string>
+    <string name="action_compress">Komprimera</string>
+    <string name="action_merge">Sammanfoga PDF</string>
+    <string name="history">Historik</string>
+    <string name="go_pro">Skaffa Pro</string>
+    <string name="export">Exportera</string>
+    <string name="share">Dela</string>
+    <string name="watch_ad_hd">Titta på annons för HD / utan vattenstämpel</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Engångsupplåsning. Inga prenumerationer.</string>
+    <string name="pro_benefit_ads">Ta bort all reklam</string>
+    <string name="pro_benefit_hd">HD-exporter utan vattenstämpel</string>
+    <string name="pro_benefit_batch">Batch &amp; obegränsade sammanfogningar</string>
+    <string name="buy_pro">Lås upp Pro</string>
+    <string name="already_pro">Du har Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Tillbaka</string>
+    <string name="cd_history">Historik</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Fånga sida</string>
+    <string name="cd_move_up">Flytta upp</string>
+    <string name="cd_move_down">Flytta ner</string>
+    <string name="cd_remove">Ta bort</string>
+    <string name="continue_action">Fortsätt</string>
+    <string name="add_more">Lägg till fler</string>
+    <string name="working">Arbetar…</string>
+    <string name="share_with">Dela med</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Kamerainspelning till PDF</string>
+    <string name="home_image_to_pdf_subtitle">Galleribilder till en PDF</string>
+    <string name="home_compress_subtitle">Minska bildfilens storlek</string>
+    <string name="home_merge_subtitle">Kombinera flera PDF:er</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Fånga sidor</string>
+    <string name="camera_access_needed">Kamerabehörighet krävs</string>
+    <string name="camera_permission_message">Tillåt kamerabehörighet för att skanna dokument till PDF-sidor.</string>
+    <string name="grant_permission">Ge behörighet</string>
+    <string name="capture_page">Fånga sida</string>
+    <string name="capture_failed">Inspelning misslyckades</string>
+    <string name="scan_preview">Skanningsförhandsvisning</string>
+    <plurals name="pages_captured">
+        <item quantity="one">%d sida fångad</item>
+        <item quantity="other">%d sidor fångade</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d sida</item>
+        <item quantity="other">%d sidor</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Senaste exporter</string>
+    <string name="no_history_yet">Ingen historik ännu</string>
+    <string name="no_history_message">Exporterade PDF:er och komprimerade bilder visas här.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Engångs</string>
+    <string name="restore_purchase">Återställ köp</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Fakturering otillgänglig (%1$s)</string>
+    <string name="billing_disconnected">Fakturering frånkopplad</string>
+    <string name="pro_unlocked_dev_fallback">Pro upplåst (dev-fallback — konfigurera Play-produkt för release)</string>
+    <string name="purchase_canceled">Köp avbrutet</string>
+    <string name="pro_unlocked">Pro upplåst</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Redo att dela</string>
+    <string name="export_saved_message">Din fil är sparad. Dela den nu, eller lås upp HD-kvalitet för nästa export.</string>
+    <string name="file_not_found">Filen hittades inte</string>
+    <string name="hd_unlocked_export_again">HD upplåst — exportera igen för HD / utan vattenstämpel</string>
+    <string name="hd_unlock_active">HD-upplåsning aktiv för din nästa export</string>
+    <string name="back_to_home">Tillbaka till startsidan</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Lägg till sidor för att fortsätta</string>
+    <string name="add_images">Lägg till bilder</string>
+    <string name="export_pdf">Exportera PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / utan vattenstämpel upplåst</string>
+    <string name="no_pages_yet">Inga sidor ännu</string>
+    <string name="no_pages_message">Lägg till foton för att ändra ordning, ta bort och exportera som PDF.</string>
+    <string name="page_number">Sida %1$d</string>
+    <string name="drag_order_with_arrows">Ändra ordning med pilar</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Kombinera filer i ordning</string>
+    <string name="add_pdfs">Lägg till PDF:er</string>
+    <string name="merge_action">Sammanfoga</string>
+    <string name="no_pdfs_yet">Inga PDF:er ännu</string>
+    <string name="no_pdfs_message">Välj minst två PDF-filer att sammanfoga till ett dokument.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Fil %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d fil vald</item>
+        <item quantity="other">%d filer valda</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Komprimera bild</string>
+    <string name="compress_subtitle">Balansera kvalitet och storlek</string>
+    <string name="choose_image">Välj bild</string>
+    <string name="change_image">Byt bild</string>
+    <string name="no_image_selected">Ingen bild vald</string>
+    <string name="no_image_message">Välj ett foto att komprimera och exportera som JPEG.</string>
+    <string name="quality_percent">Kvalitet: %1$d%%</string>
+    <string name="quality_hint">Lägre kvalitet ger en mindre fil.</string>
+    <string name="compress_and_export">Komprimera &amp; exportera</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Lägg till minst en fil</string>
+    <string name="export_failed">Export misslyckades</string>
+    <string name="error_unable_to_decode_image">Kunde inte avkoda bilden</string>
+</resources>

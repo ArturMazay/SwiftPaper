@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Quét, chuyển đổi, nén, gộp — xong trong vài giây.</string>
+    <string name="action_scan">Quét</string>
+    <string name="action_image_to_pdf">Ảnh → PDF</string>
+    <string name="action_compress">Nén</string>
+    <string name="action_merge">Gộp PDF</string>
+    <string name="history">Lịch sử</string>
+    <string name="go_pro">Go Pro</string>
+    <string name="export">Xuất</string>
+    <string name="share">Chia sẻ</string>
+    <string name="watch_ad_hd">Xem quảng cáo để dùng HD / không watermark</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Mở khóa một lần. Không đăng ký.</string>
+    <string name="pro_benefit_ads">Gỡ toàn bộ quảng cáo</string>
+    <string name="pro_benefit_hd">Xuất HD không watermark</string>
+    <string name="pro_benefit_batch">Gộp hàng loạt &amp; không giới hạn</string>
+    <string name="buy_pro">Mở khóa Pro</string>
+    <string name="already_pro">Bạn đã có Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Quay lại</string>
+    <string name="cd_history">Lịch sử</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Chụp trang</string>
+    <string name="cd_move_up">Di chuyển lên</string>
+    <string name="cd_move_down">Di chuyển xuống</string>
+    <string name="cd_remove">Xóa</string>
+    <string name="continue_action">Tiếp tục</string>
+    <string name="add_more">Thêm nữa</string>
+    <string name="working">Đang xử lý…</string>
+    <string name="share_with">Chia sẻ với</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Chụp camera thành PDF</string>
+    <string name="home_image_to_pdf_subtitle">Ảnh thư viện thành một PDF</string>
+    <string name="home_compress_subtitle">Giảm dung lượng ảnh</string>
+    <string name="home_merge_subtitle">Gộp nhiều PDF</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Chụp trang</string>
+    <string name="camera_access_needed">Cần quyền truy cập camera</string>
+    <string name="camera_permission_message">Cho phép quyền camera để quét tài liệu thành các trang PDF.</string>
+    <string name="grant_permission">Cấp quyền</string>
+    <string name="capture_page">Chụp trang</string>
+    <string name="capture_failed">Chụp thất bại</string>
+    <string name="scan_preview">Xem trước bản quét</string>
+    <plurals name="pages_captured">
+        <item quantity="one">Đã chụp %d trang</item>
+        <item quantity="other">Đã chụp %d trang</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d trang</item>
+        <item quantity="other">%d trang</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Xuất gần đây</string>
+    <string name="no_history_yet">Chưa có lịch sử</string>
+    <string name="no_history_message">PDF đã xuất và ảnh đã nén sẽ hiện ở đây.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Một lần</string>
+    <string name="restore_purchase">Khôi phục giao dịch</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Thanh toán không khả dụng (%1$s)</string>
+    <string name="billing_disconnected">Thanh toán bị ngắt kết nối</string>
+    <string name="pro_unlocked_dev_fallback">Đã mở Pro (dự phòng dev — cấu hình sản phẩm Play để phát hành)</string>
+    <string name="purchase_canceled">Đã hủy giao dịch</string>
+    <string name="pro_unlocked">Đã mở Pro</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Sẵn sàng chia sẻ</string>
+    <string name="export_saved_message">Tệp của bạn đã được lưu. Chia sẻ ngay, hoặc mở khóa chất lượng HD cho lần xuất tiếp theo.</string>
+    <string name="file_not_found">Không tìm thấy tệp</string>
+    <string name="hd_unlocked_export_again">Đã mở HD — xuất lại để dùng HD / không watermark</string>
+    <string name="hd_unlock_active">Mở khóa HD đang hoạt động cho lần xuất tiếp theo</string>
+    <string name="back_to_home">Về trang chủ</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Thêm trang để tiếp tục</string>
+    <string name="add_images">Thêm ảnh</string>
+    <string name="export_pdf">Xuất PDF</string>
+    <string name="hd_no_watermark_unlocked">Đã mở HD / không watermark</string>
+    <string name="no_pages_yet">Chưa có trang</string>
+    <string name="no_pages_message">Thêm ảnh để sắp xếp, xóa và xuất thành PDF.</string>
+    <string name="page_number">Trang %1$d</string>
+    <string name="drag_order_with_arrows">Sắp xếp thứ tự bằng mũi tên</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Gộp tệp theo thứ tự</string>
+    <string name="add_pdfs">Thêm PDF</string>
+    <string name="merge_action">Gộp</string>
+    <string name="no_pdfs_yet">Chưa có PDF</string>
+    <string name="no_pdfs_message">Chọn ít nhất hai tệp PDF để gộp thành một tài liệu.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Tệp %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">Đã chọn %d tệp</item>
+        <item quantity="other">Đã chọn %d tệp</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Nén ảnh</string>
+    <string name="compress_subtitle">Cân bằng chất lượng và dung lượng</string>
+    <string name="choose_image">Chọn ảnh</string>
+    <string name="change_image">Đổi ảnh</string>
+    <string name="no_image_selected">Chưa chọn ảnh</string>
+    <string name="no_image_message">Chọn ảnh để nén và xuất thành JPEG.</string>
+    <string name="quality_percent">Chất lượng: %1$d%%</string>
+    <string name="quality_hint">Chất lượng thấp hơn tạo tệp nhỏ hơn.</string>
+    <string name="compress_and_export">Nén &amp; xuất</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Thêm ít nhất một tệp</string>
+    <string name="export_failed">Xuất thất bại</string>
+    <string name="error_unable_to_decode_image">Không thể giải mã ảnh</string>
+</resources>

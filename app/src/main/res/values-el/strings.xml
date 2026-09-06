@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Σάρωση, μετατροπή, συμπίεση, συγχώνευση — έτοιμο σε δευτερόλεπτα.</string>
+    <string name="action_scan">Σάρωση</string>
+    <string name="action_image_to_pdf">Εικόνα → PDF</string>
+    <string name="action_compress">Συμπίεση</string>
+    <string name="action_merge">Συγχώνευση PDF</string>
+    <string name="history">Ιστορικό</string>
+    <string name="go_pro">Μετάβαση σε Pro</string>
+    <string name="export">Εξαγωγή</string>
+    <string name="share">Κοινοποίηση</string>
+    <string name="watch_ad_hd">Δείτε διαφήμιση για HD / χωρίς υδατογράφημα</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Μία αγορά. Χωρίς συνδρομές.</string>
+    <string name="pro_benefit_ads">Αφαίρεση όλων των διαφημίσεων</string>
+    <string name="pro_benefit_hd">Εξαγωγές HD χωρίς υδατογράφημα</string>
+    <string name="pro_benefit_batch">Μαζικές και απεριόριστες συγχωνεύσεις</string>
+    <string name="buy_pro">Ξεκλείδωμα Pro</string>
+    <string name="already_pro">Έχετε Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Πίσω</string>
+    <string name="cd_history">Ιστορικό</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Λήψη σελίδας</string>
+    <string name="cd_move_up">Μετακίνηση επάνω</string>
+    <string name="cd_move_down">Μετακίνηση κάτω</string>
+    <string name="cd_remove">Αφαίρεση</string>
+    <string name="continue_action">Συνέχεια</string>
+    <string name="add_more">Προσθήκη περισσότερων</string>
+    <string name="working">Επεξεργασία…</string>
+    <string name="share_with">Κοινοποίηση με</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Λήψη κάμερας σε PDF</string>
+    <string name="home_image_to_pdf_subtitle">Φωτογραφίες συλλογής σε ένα PDF</string>
+    <string name="home_compress_subtitle">Μείωση μεγέθους αρχείου εικόνας</string>
+    <string name="home_merge_subtitle">Συνδυασμός πολλών PDF</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Λήψη σελίδων</string>
+    <string name="camera_access_needed">Απαιτείται πρόσβαση στην κάμερα</string>
+    <string name="camera_permission_message">Επιτρέψτε την άδεια κάμερας για σάρωση εγγράφων σε σελίδες PDF.</string>
+    <string name="grant_permission">Παροχή άδειας</string>
+    <string name="capture_page">Λήψη σελίδας</string>
+    <string name="capture_failed">Η λήψη απέτυχε</string>
+    <string name="scan_preview">Προεπισκόπηση σάρωσης</string>
+
+    <plurals name="pages_captured">
+        <item quantity="one">%d σελίδα ελήφθη</item>
+        <item quantity="other">%d σελίδες ελήφθησαν</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d σελίδα</item>
+        <item quantity="other">%d σελίδες</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Πρόσφατες εξαγωγές</string>
+    <string name="no_history_yet">Δεν υπάρχει ακόμη ιστορικό</string>
+    <string name="no_history_message">Τα εξαγόμενα PDF και οι συμπιεσμένες εικόνες θα εμφανίζονται εδώ.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Εφάπαξ</string>
+    <string name="restore_purchase">Επαναφορά αγοράς</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Η χρέωση μη διαθέσιμη (%1$s)</string>
+    <string name="billing_disconnected">Η χρέωση αποσυνδέθηκε</string>
+    <string name="pro_unlocked_dev_fallback">Το Pro ξεκλειδώθηκε (εφεδρικό ανάπτυξης — ρυθμίστε το προϊόν Play για κυκλοφορία)</string>
+    <string name="purchase_canceled">Η αγορά ακυρώθηκε</string>
+    <string name="pro_unlocked">Το Pro ξεκλειδώθηκε</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Έτοιμο για κοινοποίηση</string>
+    <string name="export_saved_message">Το αρχείο σας αποθηκεύτηκε. Κοινοποιήστε το τώρα ή ξεκλειδώστε ποιότητα HD για την επόμενη εξαγωγή.</string>
+    <string name="file_not_found">Το αρχείο δεν βρέθηκε</string>
+    <string name="hd_unlocked_export_again">Το HD ξεκλειδώθηκε — εξαγάγετε ξανά για HD / χωρίς υδατογράφημα</string>
+    <string name="hd_unlock_active">Ξεκλείδωμα HD ενεργό για την επόμενη εξαγωγή</string>
+    <string name="back_to_home">Επιστροφή στην αρχική</string>
+    <string name="export_default_name">εξαγωγή</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Προσθέστε σελίδες για συνέχεια</string>
+    <string name="add_images">Προσθήκη εικόνων</string>
+    <string name="export_pdf">Εξαγωγή PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / χωρίς υδατογράφημα ξεκλειδώθηκε</string>
+    <string name="no_pages_yet">Δεν υπάρχουν ακόμη σελίδες</string>
+    <string name="no_pages_message">Προσθέστε φωτογραφίες για αναδιάταξη, αφαίρεση και εξαγωγή ως PDF.</string>
+    <string name="page_number">Σελίδα %1$d</string>
+    <string name="drag_order_with_arrows">Αλλαγή σειράς με βέλη</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Συνδυάστε αρχεία με σειρά</string>
+    <string name="add_pdfs">Προσθήκη PDF</string>
+    <string name="merge_action">Συγχώνευση</string>
+    <string name="no_pdfs_yet">Δεν υπάρχουν ακόμη PDF</string>
+    <string name="no_pdfs_message">Επιλέξτε τουλάχιστον δύο αρχεία PDF για συγχώνευση σε ένα έγγραφο.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Αρχείο %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d αρχείο επιλέχθηκε</item>
+        <item quantity="other">%d αρχεία επιλέχθηκαν</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Συμπίεση εικόνας</string>
+    <string name="compress_subtitle">Ισορροπία ποιότητας και μεγέθους</string>
+    <string name="choose_image">Επιλογή εικόνας</string>
+    <string name="change_image">Αλλαγή εικόνας</string>
+    <string name="no_image_selected">Δεν επιλέχθηκε εικόνα</string>
+    <string name="no_image_message">Επιλέξτε μια φωτογραφία για συμπίεση και εξαγωγή ως JPEG.</string>
+    <string name="quality_percent">Ποιότητα: %1$d%%</string>
+    <string name="quality_hint">Χαμηλότερη ποιότητα δημιουργεί μικρότερο αρχείο.</string>
+    <string name="compress_and_export">Συμπίεση και εξαγωγή</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Προσθέστε τουλάχιστον ένα αρχείο</string>
+    <string name="export_failed">Η εξαγωγή απέτυχε</string>
+    <string name="error_unable_to_decode_image">Αδυναμία αποκωδικοποίησης εικόνας</string>
+</resources>

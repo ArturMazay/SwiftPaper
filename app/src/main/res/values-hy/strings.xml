@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Սկանավորեք, փոխարկեք, սեղմեք, միավորեք — վայրկյանների ընթացքում պատրաստ է։</string>
+    <string name="action_scan">Սկանավորել</string>
+    <string name="action_image_to_pdf">Պատկեր → PDF</string>
+    <string name="action_compress">Սեղմել</string>
+    <string name="action_merge">Միավորել PDF</string>
+    <string name="history">Պատմություն</string>
+    <string name="go_pro">Անցնել Pro</string>
+    <string name="export">Արտահանել</string>
+    <string name="share">Կիսվել</string>
+    <string name="watch_ad_hd">Դիտեք գովազդ HD / առանց ջրանիշի համար</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Մեկանգամյա գնում։ Առանց բաժանորդագրությունների։</string>
+    <string name="pro_benefit_ads">Հեռացնել բոլոր գովազդները</string>
+    <string name="pro_benefit_hd">HD արտահանում առանց ջրանիշի</string>
+    <string name="pro_benefit_batch">Խմբային և անսահմանափակ միավորումներ</string>
+    <string name="buy_pro">Բացել Pro</string>
+    <string name="already_pro">Դուք ունեք Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Հետ</string>
+    <string name="cd_history">Պատմություն</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Նկարել էջ</string>
+    <string name="cd_move_up">Տեղափոխել վերև</string>
+    <string name="cd_move_down">Տեղափոխել ներքև</string>
+    <string name="cd_remove">Հեռացնել</string>
+    <string name="continue_action">Շարունակել</string>
+    <string name="add_more">Ավելացնել ևս</string>
+    <string name="working">Մշակվում է…</string>
+    <string name="share_with">Կիսվել՝</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Խցիկով նկարում PDF</string>
+    <string name="home_image_to_pdf_subtitle">Պատկերասրահի լուսանկարներ մեկ PDF</string>
+    <string name="home_compress_subtitle">Պատկերի ֆայլի չափի փոքրացում</string>
+    <string name="home_merge_subtitle">Մի քանի PDF-ների միավորում</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Նկարել էջեր</string>
+    <string name="camera_access_needed">Անհրաժեշտ է խցիկի հասանելիություն</string>
+    <string name="camera_permission_message">Փաստաթղթերը PDF էջերի սկանավորելու համար թույլատրեք խցիկի թույլտվությունը։</string>
+    <string name="grant_permission">Տալ թույլտվություն</string>
+    <string name="capture_page">Նկարել էջ</string>
+    <string name="capture_failed">Նկարումը ձախողվեց</string>
+    <string name="scan_preview">Սկանավորման նախադիտում</string>
+
+    <plurals name="pages_captured">
+        <item quantity="one">%d էջ նկարվեց</item>
+        <item quantity="other">%d էջ նկարվեց</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d էջ</item>
+        <item quantity="other">%d էջ</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Վերջին արտահանումներ</string>
+    <string name="no_history_yet">Դեռ պատմություն չկա</string>
+    <string name="no_history_message">Արտահանված PDF-ները և սեղմված պատկերները կերևան այստեղ։</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Մեկանգամյա</string>
+    <string name="restore_purchase">Վերականգնել գնումը</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Վճարումը հասանելի չէ (%1$s)</string>
+    <string name="billing_disconnected">Վճարումը անջատված է</string>
+    <string name="pro_unlocked_dev_fallback">Pro-ն բացված է (մշակողի պահուստ — թողարկման համար կարգավորեք Play արտադրանքը)</string>
+    <string name="purchase_canceled">Գնումը չեղարկվեց</string>
+    <string name="pro_unlocked">Pro-ն բացված է</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Պատրաստ է կիսվելու</string>
+    <string name="export_saved_message">Ձեր ֆայլը պահված է։ Կիսվեք հիմա կամ բացեք HD որակը հաջորդ արտահանման համար։</string>
+    <string name="file_not_found">Ֆայլը չգտնվեց</string>
+    <string name="hd_unlocked_export_again">HD-ն բացված է — կրկին արտահանեք HD / առանց ջրանիշի համար</string>
+    <string name="hd_unlock_active">HD բացումը ակտիվ է հաջորդ արտահանման համար</string>
+    <string name="back_to_home">Վերադառնալ գլխավոր</string>
+    <string name="export_default_name">արտահանում</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Շարունակելու համար ավելացրեք էջեր</string>
+    <string name="add_images">Ավելացնել պատկերներ</string>
+    <string name="export_pdf">Արտահանել PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / առանց ջրանիշի բացված է</string>
+    <string name="no_pages_yet">Դեռ էջեր չկան</string>
+    <string name="no_pages_message">Ավելացրեք լուսանկարներ վերադասավորելու, հեռացնելու և PDF արտահանելու համար։</string>
+    <string name="page_number">Էջ %1$d</string>
+    <string name="drag_order_with_arrows">Փոխեք հերթականությունը սլաքներով</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Միավորեք ֆայլերը հերթականությամբ</string>
+    <string name="add_pdfs">Ավելացնել PDF-ներ</string>
+    <string name="merge_action">Միավորել</string>
+    <string name="no_pdfs_yet">Դեռ PDF չկա</string>
+    <string name="no_pdfs_message">Ընտրեք առնվազն երկու PDF՝ մեկ փաստաթղթում միավորելու համար։</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Ֆայլ %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d ֆայլ ընտրվեց</item>
+        <item quantity="other">%d ֆայլ ընտրվեց</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Սեղմել պատկերը</string>
+    <string name="compress_subtitle">Որակի և չափի հավասարակշռություն</string>
+    <string name="choose_image">Ընտրել պատկեր</string>
+    <string name="change_image">Փոխել պատկերը</string>
+    <string name="no_image_selected">Պատկեր չի ընտրվել</string>
+    <string name="no_image_message">Ընտրեք լուսանկար՝ սեղմելու և JPEG արտահանելու համար։</string>
+    <string name="quality_percent">Որակ՝ %1$d%%</string>
+    <string name="quality_hint">Ավելի ցածր որակը ստեղծում է ավելի փոքր ֆայլ։</string>
+    <string name="compress_and_export">Սեղմել և արտահանել</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Ավելացրեք առնվազն մեկ ֆայլ</string>
+    <string name="export_failed">Արտահանումը ձախողվեց</string>
+    <string name="error_unable_to_decode_image">Հնարավոր չէ վերծանել պատկերը</string>
+</resources>

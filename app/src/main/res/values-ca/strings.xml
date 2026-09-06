@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Escaneja, converteix, comprimeix, fusiona — fet en uns segons.</string>
+    <string name="action_scan">Escanejar</string>
+    <string name="action_image_to_pdf">Imatge → PDF</string>
+    <string name="action_compress">Comprimir</string>
+    <string name="action_merge">Fusionar PDF</string>
+    <string name="history">Historial</string>
+    <string name="go_pro">Fes-te Pro</string>
+    <string name="export">Exportar</string>
+    <string name="share">Compartir</string>
+    <string name="watch_ad_hd">Mira un anunci per a HD / sense marca d\'aigua</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Desblocatge únic. Sense subscripcions.</string>
+    <string name="pro_benefit_ads">Elimina tots els anuncis</string>
+    <string name="pro_benefit_hd">Exportacions HD sense marca d\'aigua</string>
+    <string name="pro_benefit_batch">Fusions per lots i il·limitades</string>
+    <string name="buy_pro">Desbloquejar Pro</string>
+    <string name="already_pro">Ja tens Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Enrere</string>
+    <string name="cd_history">Historial</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Capturar pàgina</string>
+    <string name="cd_move_up">Moure amunt</string>
+    <string name="cd_move_down">Moure avall</string>
+    <string name="cd_remove">Eliminar</string>
+    <string name="continue_action">Continuar</string>
+    <string name="add_more">Afegir-ne més</string>
+    <string name="working">S\'està treballant…</string>
+    <string name="share_with">Compartir amb</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Captura amb la càmera a PDF</string>
+    <string name="home_image_to_pdf_subtitle">Fotos de la galeria en un PDF</string>
+    <string name="home_compress_subtitle">Redueix la mida del fitxer d\'imatge</string>
+    <string name="home_merge_subtitle">Combina diversos PDF</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Capturar pàgines</string>
+    <string name="camera_access_needed">Cal accés a la càmera</string>
+    <string name="camera_permission_message">Permet l\'accés a la càmera per escanejar documents en pàgines PDF.</string>
+    <string name="grant_permission">Concedir el permís</string>
+    <string name="capture_page">Capturar pàgina</string>
+    <string name="capture_failed">Ha fallat la captura</string>
+    <string name="scan_preview">Previsualització de l\'escaneig</string>
+    <plurals name="pages_captured">
+        <item quantity="one">%d pàgina capturada</item>
+        <item quantity="other">%d pàgines capturades</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d pàgina</item>
+        <item quantity="other">%d pàgines</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Exportacions recents</string>
+    <string name="no_history_yet">Encara no hi ha historial</string>
+    <string name="no_history_message">Els PDF exportats i les imatges comprimides apareixeran aquí.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Pagament únic</string>
+    <string name="restore_purchase">Restaurar la compra</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Facturació no disponible (%1$s)</string>
+    <string name="billing_disconnected">Facturació desconnectada</string>
+    <string name="pro_unlocked_dev_fallback">Pro desbloquejat (reserva de desenvolupament — configura el producte de Play per a la versió final)</string>
+    <string name="purchase_canceled">Compra cancel·lada</string>
+    <string name="pro_unlocked">Pro desbloquejat</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">A punt per compartir</string>
+    <string name="export_saved_message">El fitxer està desat. Comparteix-lo ara o desbloqueja la qualitat HD per a la propera exportació.</string>
+    <string name="file_not_found">No s\'ha trobat el fitxer</string>
+    <string name="hd_unlocked_export_again">HD desbloquejat — exporta de nou per a HD / sense marca d\'aigua</string>
+    <string name="hd_unlock_active">Desblocatge HD actiu per a la propera exportació</string>
+    <string name="back_to_home">Tornar a l\'inici</string>
+    <string name="export_default_name">exportacio</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Afegeix pàgines per continuar</string>
+    <string name="add_images">Afegir imatges</string>
+    <string name="export_pdf">Exportar PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / sense marca d\'aigua desbloquejat</string>
+    <string name="no_pages_yet">Encara no hi ha pàgines</string>
+    <string name="no_pages_message">Afegeix fotos per reordenar, eliminar i exportar com a PDF.</string>
+    <string name="page_number">Pàgina %1$d</string>
+    <string name="drag_order_with_arrows">Canvia l\'ordre amb les fletxes</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Combina els fitxers en ordre</string>
+    <string name="add_pdfs">Afegir PDF</string>
+    <string name="merge_action">Fusionar</string>
+    <string name="no_pdfs_yet">Encara no hi ha PDF</string>
+    <string name="no_pdfs_message">Tria almenys dos fitxers PDF per fusionar-los en un document.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Fitxer %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d fitxer seleccionat</item>
+        <item quantity="other">%d fitxers seleccionats</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Comprimir imatge</string>
+    <string name="compress_subtitle">Equilibra la qualitat i la mida</string>
+    <string name="choose_image">Triar imatge</string>
+    <string name="change_image">Canviar imatge</string>
+    <string name="no_image_selected">No s\'ha seleccionat cap imatge</string>
+    <string name="no_image_message">Tria una foto per comprimir-la i exportar-la com a JPEG.</string>
+    <string name="quality_percent">Qualitat: %1$d%%</string>
+    <string name="quality_hint">Una qualitat més baixa crea un fitxer més petit.</string>
+    <string name="compress_and_export">Comprimir i exportar</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Afegeix almenys un fitxer</string>
+    <string name="export_failed">Ha fallat l\'exportació</string>
+    <string name="error_unable_to_decode_image">No s\'ha pogut descodificar la imatge</string>
+</resources>

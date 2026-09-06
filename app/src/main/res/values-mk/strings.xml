@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Скенирај, конвертирај, компресирај, спои — готово за секунди.</string>
+    <string name="action_scan">Скенирај</string>
+    <string name="action_image_to_pdf">Слика → PDF</string>
+    <string name="action_compress">Компресирај</string>
+    <string name="action_merge">Спој PDF</string>
+    <string name="history">Историја</string>
+    <string name="go_pro">Оди на Pro</string>
+    <string name="export">Извези</string>
+    <string name="share">Сподели</string>
+    <string name="watch_ad_hd">Гледај реклама за HD / без воден печат</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Еднократно отклучување. Без претплати.</string>
+    <string name="pro_benefit_ads">Отстрани ги сите реклами</string>
+    <string name="pro_benefit_hd">HD извоз без воден печат</string>
+    <string name="pro_benefit_batch">Групни и неограничени спојувања</string>
+    <string name="buy_pro">Отклучи Pro</string>
+    <string name="already_pro">Имате Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Назад</string>
+    <string name="cd_history">Историја</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Сними страница</string>
+    <string name="cd_move_up">Помести нагоре</string>
+    <string name="cd_move_down">Помести надолу</string>
+    <string name="cd_remove">Отстрани</string>
+    <string name="continue_action">Продолжи</string>
+    <string name="add_more">Додај повеќе</string>
+    <string name="working">Се обработува…</string>
+    <string name="share_with">Сподели со</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Снимање со камера во PDF</string>
+    <string name="home_image_to_pdf_subtitle">Фотографии од галерија во еден PDF</string>
+    <string name="home_compress_subtitle">Намали ја големината на сликата</string>
+    <string name="home_merge_subtitle">Спој повеќе PDF-и</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Сними страници</string>
+    <string name="camera_access_needed">Потребен е пристап до камерата</string>
+    <string name="camera_permission_message">Дозволете пристап до камерата за скенирање документи во PDF страници.</string>
+    <string name="grant_permission">Дај дозвола</string>
+    <string name="capture_page">Сними страница</string>
+    <string name="capture_failed">Снимањето не успеа</string>
+    <string name="scan_preview">Преглед на скенирање</string>
+
+    <plurals name="pages_captured">
+        <item quantity="one">%d страница снимена</item>
+        <item quantity="other">%d страници снимени</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d страница</item>
+        <item quantity="other">%d страници</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Неодамнешни извози</string>
+    <string name="no_history_yet">Сè уште нема историја</string>
+    <string name="no_history_message">Извезените PDF-и и компресираните слики ќе се појават тука.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Еднократно</string>
+    <string name="restore_purchase">Врати купување</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Наплатата е недостапна (%1$s)</string>
+    <string name="billing_disconnected">Наплатата е прекината</string>
+    <string name="pro_unlocked_dev_fallback">Pro е отклучен (развојна резерва — конфигурирајте Play производ за издавање)</string>
+    <string name="purchase_canceled">Купувањето е откажано</string>
+    <string name="pro_unlocked">Pro е отклучен</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Подготвено за споделување</string>
+    <string name="export_saved_message">Вашата датотека е зачувана. Споделете ја сега или отклучете HD квалитет за следниот извоз.</string>
+    <string name="file_not_found">Датотеката не е пронајдена</string>
+    <string name="hd_unlocked_export_again">HD е отклучен — извезете повторно за HD / без воден печат</string>
+    <string name="hd_unlock_active">Отклучувањето на HD е активно за следниот извоз</string>
+    <string name="back_to_home">Назад на почеток</string>
+    <string name="export_default_name">извоз</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Додајте страници за да продолжите</string>
+    <string name="add_images">Додај слики</string>
+    <string name="export_pdf">Извези PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / без воден печат е отклучен</string>
+    <string name="no_pages_yet">Сè уште нема страници</string>
+    <string name="no_pages_message">Додајте фотографии за прередување, отстранување и извоз како PDF.</string>
+    <string name="page_number">Страница %1$d</string>
+    <string name="drag_order_with_arrows">Променете го редоследот со стрелки</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Спојте датотеки по редослед</string>
+    <string name="add_pdfs">Додај PDF-и</string>
+    <string name="merge_action">Спој</string>
+    <string name="no_pdfs_yet">Сè уште нема PDF-и</string>
+    <string name="no_pdfs_message">Изберете најмалку две PDF датотеки за спојување во еден документ.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Датотека %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d датотека избрана</item>
+        <item quantity="other">%d датотеки избрани</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Компресирај слика</string>
+    <string name="compress_subtitle">Рамнотежа помеѓу квалитет и големина</string>
+    <string name="choose_image">Избери слика</string>
+    <string name="change_image">Промени слика</string>
+    <string name="no_image_selected">Не е избрана слика</string>
+    <string name="no_image_message">Изберете фотографија за компресија и извоз како JPEG.</string>
+    <string name="quality_percent">Квалитет: %1$d%%</string>
+    <string name="quality_hint">Понизок квалитет создава помала датотека.</string>
+    <string name="compress_and_export">Компресирај и извези</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Додајте најмалку една датотека</string>
+    <string name="export_failed">Извозот не успеа</string>
+    <string name="error_unable_to_decode_image">Не може да се декодира сликата</string>
+</resources>

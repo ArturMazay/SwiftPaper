@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Szkennelés, átalakítás, tömörítés, egyesítés — másodpercek alatt kész.</string>
+    <string name="action_scan">Szkennelés</string>
+    <string name="action_image_to_pdf">Kép → PDF</string>
+    <string name="action_compress">Tömörítés</string>
+    <string name="action_merge">PDF egyesítése</string>
+    <string name="history">Előzmények</string>
+    <string name="go_pro">Pro verzió</string>
+    <string name="export">Exportálás</string>
+    <string name="share">Megosztás</string>
+    <string name="watch_ad_hd">Nézzen reklámot HD-ért / vízjel nélkül</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Egyszeri vásárlás. Nincs előfizetés.</string>
+    <string name="pro_benefit_ads">Összes hirdetés eltávolítása</string>
+    <string name="pro_benefit_hd">HD exportálás vízjel nélkül</string>
+    <string name="pro_benefit_batch">Kötegelt és korlátlan egyesítés</string>
+    <string name="buy_pro">Pro feloldása</string>
+    <string name="already_pro">Önnek Pro van</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Vissza</string>
+    <string name="cd_history">Előzmények</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Oldal rögzítése</string>
+    <string name="cd_move_up">Mozgatás fel</string>
+    <string name="cd_move_down">Mozgatás le</string>
+    <string name="cd_remove">Eltávolítás</string>
+    <string name="continue_action">Folytatás</string>
+    <string name="add_more">További hozzáadása</string>
+    <string name="working">Feldolgozás…</string>
+    <string name="share_with">Megosztás ezzel</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Kamerás rögzítés PDF-be</string>
+    <string name="home_image_to_pdf_subtitle">Galériaképek egy PDF-be</string>
+    <string name="home_compress_subtitle">Képfájl méretének csökkentése</string>
+    <string name="home_merge_subtitle">Több PDF egyesítése</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Oldalak rögzítése</string>
+    <string name="camera_access_needed">Kamera-hozzáférés szükséges</string>
+    <string name="camera_permission_message">Engedélyezze a kameraengedélyt a dokumentumok PDF-oldalakká szkenneléséhez.</string>
+    <string name="grant_permission">Engedély megadása</string>
+    <string name="capture_page">Oldal rögzítése</string>
+    <string name="capture_failed">Rögzítés sikertelen</string>
+    <string name="scan_preview">Szkennelés előnézete</string>
+
+    <plurals name="pages_captured">
+        <item quantity="one">%d oldal rögzítve</item>
+        <item quantity="other">%d oldal rögzítve</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d oldal</item>
+        <item quantity="other">%d oldal</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Legutóbbi exportok</string>
+    <string name="no_history_yet">Még nincsenek előzmények</string>
+    <string name="no_history_message">Az exportált PDF-ek és tömörített képek itt jelennek meg.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Egyszeri</string>
+    <string name="restore_purchase">Vásárlás visszaállítása</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Számlázás nem érhető el (%1$s)</string>
+    <string name="billing_disconnected">Számlázás leválasztva</string>
+    <string name="pro_unlocked_dev_fallback">Pro feloldva (fejlesztői tartalék — állítsa be a Play terméket a kiadáshoz)</string>
+    <string name="purchase_canceled">Vásárlás megszakítva</string>
+    <string name="pro_unlocked">Pro feloldva</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Készen áll a megosztásra</string>
+    <string name="export_saved_message">A fájl mentve. Ossza meg most, vagy oldja fel a HD minőséget a következő exporthoz.</string>
+    <string name="file_not_found">Fájl nem található</string>
+    <string name="hd_unlocked_export_again">HD feloldva — exportáljon újra HD / vízjel nélkül</string>
+    <string name="hd_unlock_active">HD feloldás aktív a következő exporthoz</string>
+    <string name="back_to_home">Vissza a kezdőlapra</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Adjon hozzá oldalakat a folytatáshoz</string>
+    <string name="add_images">Képek hozzáadása</string>
+    <string name="export_pdf">PDF exportálása</string>
+    <string name="hd_no_watermark_unlocked">HD / vízjel nélkül feloldva</string>
+    <string name="no_pages_yet">Még nincsenek oldalak</string>
+    <string name="no_pages_message">Adjon hozzá fotókat az átrendezéshez, eltávolításhoz és PDF-exportáláshoz.</string>
+    <string name="page_number">%1$d. oldal</string>
+    <string name="drag_order_with_arrows">Sorrend nyilakkal</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Fájlok egyesítése sorrendben</string>
+    <string name="add_pdfs">PDF-ek hozzáadása</string>
+    <string name="merge_action">Egyesítés</string>
+    <string name="no_pdfs_yet">Még nincsenek PDF-ek</string>
+    <string name="no_pdfs_message">Válasszon legalább két PDF-fájlt egy dokumentumba egyesítéshez.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">%1$d. fájl</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d fájl kiválasztva</item>
+        <item quantity="other">%d fájl kiválasztva</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Kép tömörítése</string>
+    <string name="compress_subtitle">Minőség és méret egyensúlya</string>
+    <string name="choose_image">Kép kiválasztása</string>
+    <string name="change_image">Kép cseréje</string>
+    <string name="no_image_selected">Nincs kép kiválasztva</string>
+    <string name="no_image_message">Válasszon egy fotót tömörítéshez és JPEG-exportáláshoz.</string>
+    <string name="quality_percent">Minőség: %1$d%%</string>
+    <string name="quality_hint">Az alacsonyabb minőség kisebb fájlt eredményez.</string>
+    <string name="compress_and_export">Tömörítés és exportálás</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Adjon hozzá legalább egy fájlt</string>
+    <string name="export_failed">Exportálás sikertelen</string>
+    <string name="error_unable_to_decode_image">A kép nem dekódolható</string>
+</resources>

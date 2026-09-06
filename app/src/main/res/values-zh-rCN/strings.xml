@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">扫描、转换、压缩、合并 — 几秒搞定。</string>
+    <string name="action_scan">扫描</string>
+    <string name="action_image_to_pdf">图片 → PDF</string>
+    <string name="action_compress">压缩</string>
+    <string name="action_merge">合并 PDF</string>
+    <string name="history">历史记录</string>
+    <string name="go_pro">开通 Pro</string>
+    <string name="export">导出</string>
+    <string name="share">分享</string>
+    <string name="watch_ad_hd">观看广告解锁高清 / 无水印</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">一次买断，无订阅。</string>
+    <string name="pro_benefit_ads">去除所有广告</string>
+    <string name="pro_benefit_hd">高清导出，无水印</string>
+    <string name="pro_benefit_batch">批量与无限合并</string>
+    <string name="buy_pro">解锁 Pro</string>
+    <string name="already_pro">您已是 Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">返回</string>
+    <string name="cd_history">历史记录</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">拍摄页面</string>
+    <string name="cd_move_up">上移</string>
+    <string name="cd_move_down">下移</string>
+    <string name="cd_remove">移除</string>
+    <string name="continue_action">继续</string>
+    <string name="add_more">继续添加</string>
+    <string name="working">处理中…</string>
+    <string name="share_with">分享到</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">相机拍摄转 PDF</string>
+    <string name="home_image_to_pdf_subtitle">相册照片合并为一个 PDF</string>
+    <string name="home_compress_subtitle">缩小图片文件大小</string>
+    <string name="home_merge_subtitle">合并多个 PDF</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">拍摄页面</string>
+    <string name="camera_access_needed">需要相机权限</string>
+    <string name="camera_permission_message">请允许相机权限，以便将文档扫描为 PDF 页面。</string>
+    <string name="grant_permission">授予权限</string>
+    <string name="capture_page">拍摄页面</string>
+    <string name="capture_failed">拍摄失败</string>
+    <string name="scan_preview">扫描预览</string>
+    <plurals name="pages_captured">
+        <item quantity="other">已拍摄 %d 页</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="other">%d 页</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">最近导出</string>
+    <string name="no_history_yet">暂无历史记录</string>
+    <string name="no_history_message">导出的 PDF 和压缩后的图片将显示在这里。</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">一次买断</string>
+    <string name="restore_purchase">恢复购买</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">无法使用结算（%1$s）</string>
+    <string name="billing_disconnected">结算已断开连接</string>
+    <string name="pro_unlocked_dev_fallback">已解锁 Pro（开发回退 — 正式版请配置 Play 商品）</string>
+    <string name="purchase_canceled">已取消购买</string>
+    <string name="pro_unlocked">已解锁 Pro</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">可以分享了</string>
+    <string name="export_saved_message">文件已保存。立即分享，或为下次导出解锁高清画质。</string>
+    <string name="file_not_found">未找到文件</string>
+    <string name="hd_unlocked_export_again">已解锁高清 — 请重新导出以获得高清 / 无水印</string>
+    <string name="hd_unlock_active">下次导出将启用高清解锁</string>
+    <string name="back_to_home">返回首页</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">添加页面以继续</string>
+    <string name="add_images">添加图片</string>
+    <string name="export_pdf">导出 PDF</string>
+    <string name="hd_no_watermark_unlocked">已解锁高清 / 无水印</string>
+    <string name="no_pages_yet">暂无页面</string>
+    <string name="no_pages_message">添加照片以调整顺序、删除并导出为 PDF。</string>
+    <string name="page_number">第 %1$d 页</string>
+    <string name="drag_order_with_arrows">用箭头调整顺序</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">按顺序合并文件</string>
+    <string name="add_pdfs">添加 PDF</string>
+    <string name="merge_action">合并</string>
+    <string name="no_pdfs_yet">暂无 PDF</string>
+    <string name="no_pdfs_message">请至少选择两个 PDF 文件合并为一个文档。</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">文件 %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="other">已选择 %d 个文件</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">压缩图片</string>
+    <string name="compress_subtitle">平衡画质与大小</string>
+    <string name="choose_image">选择图片</string>
+    <string name="change_image">更换图片</string>
+    <string name="no_image_selected">未选择图片</string>
+    <string name="no_image_message">选择一张照片进行压缩并导出为 JPEG。</string>
+    <string name="quality_percent">画质：%1$d%%</string>
+    <string name="quality_hint">降低画质可获得更小的文件。</string>
+    <string name="compress_and_export">压缩并导出</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">请至少添加一个文件</string>
+    <string name="export_failed">导出失败</string>
+    <string name="error_unable_to_decode_image">无法解码图片</string>
+</resources>

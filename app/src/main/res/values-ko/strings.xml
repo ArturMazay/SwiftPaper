@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">스캔, 변환, 압축, 병합 — 몇 초면 끝.</string>
+    <string name="action_scan">스캔</string>
+    <string name="action_image_to_pdf">이미지 → PDF</string>
+    <string name="action_compress">압축</string>
+    <string name="action_merge">PDF 병합</string>
+    <string name="history">기록</string>
+    <string name="go_pro">Pro로 업그레이드</string>
+    <string name="export">내보내기</string>
+    <string name="share">공유</string>
+    <string name="watch_ad_hd">광고 보고 HD / 워터마크 제거</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">한 번 구매. 구독 없음.</string>
+    <string name="pro_benefit_ads">모든 광고 제거</string>
+    <string name="pro_benefit_hd">워터마크 없는 HD 내보내기</string>
+    <string name="pro_benefit_batch">일괄 및 무제한 병합</string>
+    <string name="buy_pro">Pro 잠금 해제</string>
+    <string name="already_pro">Pro 이용 중</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">뒤로</string>
+    <string name="cd_history">기록</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">페이지 촬영</string>
+    <string name="cd_move_up">위로 이동</string>
+    <string name="cd_move_down">아래로 이동</string>
+    <string name="cd_remove">삭제</string>
+    <string name="continue_action">계속</string>
+    <string name="add_more">더 추가</string>
+    <string name="working">처리 중…</string>
+    <string name="share_with">공유 대상</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">카메라로 촬영해 PDF로</string>
+    <string name="home_image_to_pdf_subtitle">갤러리 사진을 하나의 PDF로</string>
+    <string name="home_compress_subtitle">이미지 파일 크기 줄이기</string>
+    <string name="home_merge_subtitle">여러 PDF 합치기</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">페이지 촬영</string>
+    <string name="camera_access_needed">카메라 접근 필요</string>
+    <string name="camera_permission_message">문서를 스캔해 PDF 페이지로 만들려면 카메라 권한을 허용하세요.</string>
+    <string name="grant_permission">권한 허용</string>
+    <string name="capture_page">페이지 촬영</string>
+    <string name="capture_failed">촬영 실패</string>
+    <string name="scan_preview">스캔 미리보기</string>
+    <plurals name="pages_captured">
+        <item quantity="other">%d페이지 촬영됨</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="other">%d페이지</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">최근 내보내기</string>
+    <string name="no_history_yet">기록이 아직 없습니다</string>
+    <string name="no_history_message">내보낸 PDF와 압축한 이미지가 여기에 표시됩니다.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">일회성</string>
+    <string name="restore_purchase">구매 복원</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">결제 이용 불가 (%1$s)</string>
+    <string name="billing_disconnected">결제 연결 끊김</string>
+    <string name="pro_unlocked_dev_fallback">Pro 잠금 해제됨 (개발용 대체 — 출시 시 Play 상품을 설정하세요)</string>
+    <string name="purchase_canceled">구매가 취소됨</string>
+    <string name="pro_unlocked">Pro 잠금 해제됨</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">공유 준비 완료</string>
+    <string name="export_saved_message">파일이 저장되었습니다. 지금 공유하거나, 다음 내보내기에서 HD 화질을 잠금 해제하세요.</string>
+    <string name="file_not_found">파일을 찾을 수 없음</string>
+    <string name="hd_unlocked_export_again">HD 잠금 해제됨 — 다시 내보내면 HD / 워터마크 없음</string>
+    <string name="hd_unlock_active">다음 내보내기에 HD 잠금 해제가 적용됩니다</string>
+    <string name="back_to_home">홈으로 돌아가기</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">계속하려면 페이지를 추가하세요</string>
+    <string name="add_images">이미지 추가</string>
+    <string name="export_pdf">PDF 내보내기</string>
+    <string name="hd_no_watermark_unlocked">HD / 워터마크 없음 잠금 해제됨</string>
+    <string name="no_pages_yet">페이지가 아직 없습니다</string>
+    <string name="no_pages_message">사진을 추가해 순서를 바꾸고 삭제한 뒤 PDF로 내보내세요.</string>
+    <string name="page_number">페이지 %1$d</string>
+    <string name="drag_order_with_arrows">화살표로 순서 변경</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">파일을 순서대로 합치기</string>
+    <string name="add_pdfs">PDF 추가</string>
+    <string name="merge_action">병합</string>
+    <string name="no_pdfs_yet">PDF가 아직 없습니다</string>
+    <string name="no_pdfs_message">하나의 문서로 병합하려면 PDF 파일을 두 개 이상 선택하세요.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">파일 %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="other">파일 %d개 선택됨</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">이미지 압축</string>
+    <string name="compress_subtitle">화질과 크기 균형</string>
+    <string name="choose_image">이미지 선택</string>
+    <string name="change_image">이미지 변경</string>
+    <string name="no_image_selected">선택된 이미지 없음</string>
+    <string name="no_image_message">사진을 선택해 압축한 뒤 JPEG로 내보내세요.</string>
+    <string name="quality_percent">화질: %1$d%%</string>
+    <string name="quality_hint">화질을 낮추면 파일이 더 작아집니다.</string>
+    <string name="compress_and_export">압축 및 내보내기</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">파일을 하나 이상 추가하세요</string>
+    <string name="export_failed">내보내기 실패</string>
+    <string name="error_unable_to_decode_image">이미지를 디코딩할 수 없음</string>
+</resources>

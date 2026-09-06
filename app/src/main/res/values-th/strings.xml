@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">สแกน แปลง บีบอัด รวม — เสร็จในไม่กี่วินาที</string>
+    <string name="action_scan">สแกน</string>
+    <string name="action_image_to_pdf">รูปภาพ → PDF</string>
+    <string name="action_compress">บีบอัด</string>
+    <string name="action_merge">รวม PDF</string>
+    <string name="history">ประวัติ</string>
+    <string name="go_pro">Go Pro</string>
+    <string name="export">ส่งออก</string>
+    <string name="share">แชร์</string>
+    <string name="watch_ad_hd">ดูโฆษณาเพื่อ HD / ไม่มีลายน้ำ</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">ปลดล็อกครั้งเดียว ไม่มีสมัครสมาชิก</string>
+    <string name="pro_benefit_ads">ลบโฆษณาทั้งหมด</string>
+    <string name="pro_benefit_hd">ส่งออก HD โดยไม่มีลายน้ำ</string>
+    <string name="pro_benefit_batch">รวมแบบชุด &amp; ไม่จำกัดจำนวน</string>
+    <string name="buy_pro">ปลดล็อก Pro</string>
+    <string name="already_pro">คุณมี Pro แล้ว</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">กลับ</string>
+    <string name="cd_history">ประวัติ</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">ถ่ายหน้า</string>
+    <string name="cd_move_up">เลื่อนขึ้น</string>
+    <string name="cd_move_down">เลื่อนลง</string>
+    <string name="cd_remove">ลบ</string>
+    <string name="continue_action">ดำเนินการต่อ</string>
+    <string name="add_more">เพิ่มอีก</string>
+    <string name="working">กำลังดำเนินการ…</string>
+    <string name="share_with">แชร์กับ</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">ถ่ายด้วยกล้องเป็น PDF</string>
+    <string name="home_image_to_pdf_subtitle">รูปจากแกลเลอรีเป็น PDF เดียว</string>
+    <string name="home_compress_subtitle">ลดขนาดไฟล์รูปภาพ</string>
+    <string name="home_merge_subtitle">รวม PDF หลายไฟล์</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">ถ่ายหน้า</string>
+    <string name="camera_access_needed">ต้องเข้าถึงกล้อง</string>
+    <string name="camera_permission_message">อนุญาตสิทธิ์กล้องเพื่อสแกนเอกสารเป็นหน้า PDF</string>
+    <string name="grant_permission">อนุญาตสิทธิ์</string>
+    <string name="capture_page">ถ่ายหน้า</string>
+    <string name="capture_failed">ถ่ายไม่สำเร็จ</string>
+    <string name="scan_preview">ตัวอย่างการสแกน</string>
+    <plurals name="pages_captured">
+        <item quantity="one">ถ่ายแล้ว %d หน้า</item>
+        <item quantity="other">ถ่ายแล้ว %d หน้า</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d หน้า</item>
+        <item quantity="other">%d หน้า</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">การส่งออกล่าสุด</string>
+    <string name="no_history_yet">ยังไม่มีประวัติ</string>
+    <string name="no_history_message">PDF ที่ส่งออกและรูปที่บีบอัดจะแสดงที่นี่</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">จ่ายครั้งเดียว</string>
+    <string name="restore_purchase">กู้คืนการซื้อ</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">ระบบชำระเงินไม่พร้อมใช้งาน (%1$s)</string>
+    <string name="billing_disconnected">การชำระเงินถูกตัดการเชื่อมต่อ</string>
+    <string name="pro_unlocked_dev_fallback">ปลดล็อก Pro แล้ว (ทางเลือกสำหรับนักพัฒนา — ตั้งค่าสินค้า Play สำหรับเผยแพร่)</string>
+    <string name="purchase_canceled">ยกเลิกการซื้อแล้ว</string>
+    <string name="pro_unlocked">ปลดล็อก Pro แล้ว</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">พร้อมแชร์</string>
+    <string name="export_saved_message">บันทึกไฟล์ของคุณแล้ว แชร์เลย หรือปลดล็อกคุณภาพ HD สำหรับการส่งออกครั้งถัดไป</string>
+    <string name="file_not_found">ไม่พบไฟล์</string>
+    <string name="hd_unlocked_export_again">ปลดล็อก HD แล้ว — ส่งออกอีกครั้งเพื่อ HD / ไม่มีลายน้ำ</string>
+    <string name="hd_unlock_active">การปลดล็อก HD ใช้งานได้สำหรับการส่งออกครั้งถัดไป</string>
+    <string name="back_to_home">กลับหน้าหลัก</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">เพิ่มหน้าเพื่อดำเนินการต่อ</string>
+    <string name="add_images">เพิ่มรูปภาพ</string>
+    <string name="export_pdf">ส่งออก PDF</string>
+    <string name="hd_no_watermark_unlocked">ปลดล็อก HD / ไม่มีลายน้ำแล้ว</string>
+    <string name="no_pages_yet">ยังไม่มีหน้า</string>
+    <string name="no_pages_message">เพิ่มรูปเพื่อจัดลำดับ ลบ และส่งออกเป็น PDF</string>
+    <string name="page_number">หน้า %1$d</string>
+    <string name="drag_order_with_arrows">จัดลำดับด้วยลูกศร</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">รวมไฟล์ตามลำดับ</string>
+    <string name="add_pdfs">เพิ่ม PDF</string>
+    <string name="merge_action">รวม</string>
+    <string name="no_pdfs_yet">ยังไม่มี PDF</string>
+    <string name="no_pdfs_message">เลือกไฟล์ PDF อย่างน้อยสองไฟล์เพื่อรวมเป็นเอกสารเดียว</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">ไฟล์ %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">เลือกแล้ว %d ไฟล์</item>
+        <item quantity="other">เลือกแล้ว %d ไฟล์</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">บีบอัดรูปภาพ</string>
+    <string name="compress_subtitle">สมดุลคุณภาพและขนาด</string>
+    <string name="choose_image">เลือกรูปภาพ</string>
+    <string name="change_image">เปลี่ยนรูปภาพ</string>
+    <string name="no_image_selected">ยังไม่ได้เลือกรูปภาพ</string>
+    <string name="no_image_message">เลือกรูปเพื่อบีบอัดและส่งออกเป็น JPEG</string>
+    <string name="quality_percent">คุณภาพ: %1$d%%</string>
+    <string name="quality_hint">คุณภาพต่ำกว่าจะได้ไฟล์ที่เล็กลง</string>
+    <string name="compress_and_export">บีบอัด &amp; ส่งออก</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">เพิ่มอย่างน้อยหนึ่งไฟล์</string>
+    <string name="export_failed">ส่งออกไม่สำเร็จ</string>
+    <string name="error_unable_to_decode_image">ถอดรหัสรูปภาพไม่ได้</string>
+</resources>

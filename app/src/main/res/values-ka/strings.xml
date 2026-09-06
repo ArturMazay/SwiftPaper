@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">დაასკანერე, გადაიყვანე, შეკუმშე, გააერთიანე — წამებში მზადაა.</string>
+    <string name="action_scan">სკანირება</string>
+    <string name="action_image_to_pdf">სურათი → PDF</string>
+    <string name="action_compress">შეკუმშვა</string>
+    <string name="action_merge">PDF გაერთიანება</string>
+    <string name="history">ისტორია</string>
+    <string name="go_pro">Pro-ზე გადასვლა</string>
+    <string name="export">ექსპორტი</string>
+    <string name="share">გაზიარება</string>
+    <string name="watch_ad_hd">უყურე რეკლამას HD / უწყლონიშნოდ</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">ერთჯერადი შეძენა. გამოწერები არ არის.</string>
+    <string name="pro_benefit_ads">ყველა რეკლამის მოშორება</string>
+    <string name="pro_benefit_hd">HD ექსპორტი უწყლონიშნოდ</string>
+    <string name="pro_benefit_batch">ჯგუფური და შეუზღუდავი გაერთიანება</string>
+    <string name="buy_pro">Pro-ს განბლოკვა</string>
+    <string name="already_pro">თქვენ გაქვთ Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">უკან</string>
+    <string name="cd_history">ისტორია</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">გვერდის გადაღება</string>
+    <string name="cd_move_up">ზემოთ გადატანა</string>
+    <string name="cd_move_down">ქვემოთ გადატანა</string>
+    <string name="cd_remove">წაშლა</string>
+    <string name="continue_action">გაგრძელება</string>
+    <string name="add_more">მეტის დამატება</string>
+    <string name="working">მუშავდება…</string>
+    <string name="share_with">გაზიარება</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">კამერით გადაღება PDF-ში</string>
+    <string name="home_image_to_pdf_subtitle">გალერეის ფოტოები ერთ PDF-ში</string>
+    <string name="home_compress_subtitle">სურათის ფაილის ზომის შემცირება</string>
+    <string name="home_merge_subtitle">რამდენიმე PDF-ის გაერთიანება</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">გვერდების გადაღება</string>
+    <string name="camera_access_needed">საჭიროა კამერაზე წვდომა</string>
+    <string name="camera_permission_message">დოკუმენტების PDF გვერდებად სკანირებისთვის დართეთ კამერის ნებართვა.</string>
+    <string name="grant_permission">ნებართვის მიცემა</string>
+    <string name="capture_page">გვერდის გადაღება</string>
+    <string name="capture_failed">გადაღება ვერ მოხერხდა</string>
+    <string name="scan_preview">სკანირების გადახედვა</string>
+
+    <plurals name="pages_captured">
+        <item quantity="other">%d გვერდი გადაღებულია</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="other">%d გვერდი</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">ბოლო ექსპორტები</string>
+    <string name="no_history_yet">ისტორია ჯერ არ არის</string>
+    <string name="no_history_message">ექსპორტირებული PDF-ები და შეკუმშული სურათები აქ გამოჩნდება.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">ერთჯერადი</string>
+    <string name="restore_purchase">შეძენის აღდგენა</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">გადახდა მიუწვდომელია (%1$s)</string>
+    <string name="billing_disconnected">გადახდა გათიშულია</string>
+    <string name="pro_unlocked_dev_fallback">Pro განბლოკილია (დეველოპერის სათადარიგო — გამოშვებისთვის დააკონფიგურირეთ Play პროდუქტი)</string>
+    <string name="purchase_canceled">შეძენა გაუქმდა</string>
+    <string name="pro_unlocked">Pro განბლოკილია</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">მზადაა გასაზიარებლად</string>
+    <string name="export_saved_message">თქვენი ფაილი შენახულია. გააზიარეთ ახლა ან განბლოკეთ HD ხარისხი შემდეგი ექსპორტისთვის.</string>
+    <string name="file_not_found">ფაილი ვერ მოიძებნა</string>
+    <string name="hd_unlocked_export_again">HD განბლოკილია — ხელახლა გააკეთეთ ექსპორტი HD / უწყლონიშნოდ</string>
+    <string name="hd_unlock_active">HD განბლოკვა აქტიურია შემდეგი ექსპორტისთვის</string>
+    <string name="back_to_home">მთავარზე დაბრუნება</string>
+    <string name="export_default_name">ექსპორტი</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">გასაგრძელებლად დაამატეთ გვერდები</string>
+    <string name="add_images">სურათების დამატება</string>
+    <string name="export_pdf">PDF ექსპორტი</string>
+    <string name="hd_no_watermark_unlocked">HD / უწყლონიშნოდ განბლოკილია</string>
+    <string name="no_pages_yet">გვერდები ჯერ არ არის</string>
+    <string name="no_pages_message">დაამატეთ ფოტოები გადასალაგებლად, წასაშლელად და PDF-ად ექსპორტისთვის.</string>
+    <string name="page_number">გვერდი %1$d</string>
+    <string name="drag_order_with_arrows">თანმიმდევრობის შეცვლა ისრებით</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">ფაილების გაერთიანება თანმიმდევრობით</string>
+    <string name="add_pdfs">PDF-ების დამატება</string>
+    <string name="merge_action">გაერთიანება</string>
+    <string name="no_pdfs_yet">PDF-ები ჯერ არ არის</string>
+    <string name="no_pdfs_message">აირჩიეთ მინიმუმ ორი PDF ერთ დოკუმენტად გასაერთიანებლად.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">ფაილი %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="other">%d ფაილი არჩეულია</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">სურათის შეკუმშვა</string>
+    <string name="compress_subtitle">ხარისხისა და ზომის ბალანსი</string>
+    <string name="choose_image">სურათის არჩევა</string>
+    <string name="change_image">სურათის შეცვლა</string>
+    <string name="no_image_selected">სურათი არ არის არჩეული</string>
+    <string name="no_image_message">აირჩიეთ ფოტო შეკუმშვისა და JPEG-ად ექსპორტისთვის.</string>
+    <string name="quality_percent">ხარისხი: %1$d%%</string>
+    <string name="quality_hint">დაბალი ხარისხი უფრო პატარა ფაილს ქმნის.</string>
+    <string name="compress_and_export">შეკუმშვა და ექსპორტი</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">დაამატეთ მინიმუმ ერთი ფაილი</string>
+    <string name="export_failed">ექსპორტი ვერ მოხერხდა</string>
+    <string name="error_unable_to_decode_image">სურათის დეკოდირება შეუძლებელია</string>
+</resources>

@@ -1,0 +1,47 @@
+---
+description: Modern Android Architecture and Jetpack Compose standards for FirstApp
+globs: **/*.kt
+alwaysApply: true
+---
+
+# Android Architecture & Jetpack Compose Standards
+
+## 1. Core Architecture Guidelines
+- **UI Framework**: Use Jetpack Compose exclusively for UI.
+- **Pattern**: MVVM with Unidirectional Data Flow (UDF).
+- **State Management**: ViewModels expose a single immutable `StateFlow` (e.g., `uiState`).
+- **State Collection**: Collect UI state in Composables using `collectAsStateWithLifecycle()`.
+
+## 2. Component Design & State Hoisting
+- **Stateless Composables**: Never pass `ViewModel` instances down to child composable functions.
+- **Event Callbacks**: Pass down immutable state data and pass up events via lambda callbacks.
+- **Previews**: Keep top-level UI components previewable with `@Preview`.
+
+## 3. Data & Domain Layer
+- **Repositories**: Function as the Single Source of Truth (SSOT).
+- **Asynchronous Flow**: Use Kotlin Coroutines and `Flow` for reactive data streams.
+
+## Code Example
+
+```kotlin
+// ❌ BAD: Coupling child composable to ViewModel
+@Composable
+fun UserProfile(viewModel: UserViewModel) {
+    val user by viewModel.userState.collectAsState()
+    Text(text = user.name)
+}
+
+// ✅ GOOD: State hoisting with immutable parameters and event lambdas
+@Composable
+fun UserProfileScreen(
+    uiState: UserUiState,
+    onRefresh: () -> Unit
+) {
+    Column {
+        Text(text = uiState.userName)
+        Button(onClick = onRefresh) {
+            Text(text = "Refresh")
+        }
+    }
+}
+```

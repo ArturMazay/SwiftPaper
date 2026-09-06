@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Scan, konverter, komprimer, flet — færdig på sekunder.</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_image_to_pdf">Billede → PDF</string>
+    <string name="action_compress">Komprimer</string>
+    <string name="action_merge">Flet PDF</string>
+    <string name="history">Historik</string>
+    <string name="go_pro">Få Pro</string>
+    <string name="export">Eksportér</string>
+    <string name="share">Del</string>
+    <string name="watch_ad_hd">Se annonce for HD / uden vandmærke</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Engangsoplåsning. Ingen abonnementer.</string>
+    <string name="pro_benefit_ads">Fjern alle annoncer</string>
+    <string name="pro_benefit_hd">HD-eksporter uden vandmærke</string>
+    <string name="pro_benefit_batch">Batch &amp; ubegrænsede fletninger</string>
+    <string name="buy_pro">Lås Pro op</string>
+    <string name="already_pro">Du har Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Tilbage</string>
+    <string name="cd_history">Historik</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Tag side</string>
+    <string name="cd_move_up">Flyt op</string>
+    <string name="cd_move_down">Flyt ned</string>
+    <string name="cd_remove">Fjern</string>
+    <string name="continue_action">Fortsæt</string>
+    <string name="add_more">Tilføj flere</string>
+    <string name="working">Arbejder…</string>
+    <string name="share_with">Del med</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Kameraoptagelse til PDF</string>
+    <string name="home_image_to_pdf_subtitle">Galleribilleder til én PDF</string>
+    <string name="home_compress_subtitle">Formindsk billedfilstørrelse</string>
+    <string name="home_merge_subtitle">Kombinér flere PDF\'er</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Tag sider</string>
+    <string name="camera_access_needed">Kameraadgang påkrævet</string>
+    <string name="camera_permission_message">Tillad kameraadgang for at scanne dokumenter til PDF-sider.</string>
+    <string name="grant_permission">Giv tilladelse</string>
+    <string name="capture_page">Tag side</string>
+    <string name="capture_failed">Optagelse mislykkedes</string>
+    <string name="scan_preview">Scanforhåndsvisning</string>
+    <plurals name="pages_captured">
+        <item quantity="one">%d side taget</item>
+        <item quantity="other">%d sider taget</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d side</item>
+        <item quantity="other">%d sider</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Seneste eksporter</string>
+    <string name="no_history_yet">Ingen historik endnu</string>
+    <string name="no_history_message">Eksporterede PDF\'er og komprimerede billeder vises her.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Engangs</string>
+    <string name="restore_purchase">Gendan køb</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Fakturering utilgængelig (%1$s)</string>
+    <string name="billing_disconnected">Fakturering afbrudt</string>
+    <string name="pro_unlocked_dev_fallback">Pro låst op (dev-fallback — konfigurer Play-produkt til release)</string>
+    <string name="purchase_canceled">Køb annulleret</string>
+    <string name="pro_unlocked">Pro låst op</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Klar til at dele</string>
+    <string name="export_saved_message">Din fil er gemt. Del den nu, eller lås HD-kvalitet op til din næste eksport.</string>
+    <string name="file_not_found">Fil ikke fundet</string>
+    <string name="hd_unlocked_export_again">HD låst op — eksportér igen for HD / uden vandmærke</string>
+    <string name="hd_unlock_active">HD-oplåsning aktiv til din næste eksport</string>
+    <string name="back_to_home">Tilbage til startsiden</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Tilføj sider for at fortsætte</string>
+    <string name="add_images">Tilføj billeder</string>
+    <string name="export_pdf">Eksportér PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / uden vandmærke låst op</string>
+    <string name="no_pages_yet">Ingen sider endnu</string>
+    <string name="no_pages_message">Tilføj fotos for at omrokere, fjerne og eksportere som PDF.</string>
+    <string name="page_number">Side %1$d</string>
+    <string name="drag_order_with_arrows">Ændr rækkefølge med pile</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Kombinér filer i rækkefølge</string>
+    <string name="add_pdfs">Tilføj PDF\'er</string>
+    <string name="merge_action">Flet</string>
+    <string name="no_pdfs_yet">Ingen PDF\'er endnu</string>
+    <string name="no_pdfs_message">Vælg mindst to PDF-filer for at flette dem til ét dokument.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Fil %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d fil valgt</item>
+        <item quantity="other">%d filer valgt</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Komprimer billede</string>
+    <string name="compress_subtitle">Balance kvalitet og størrelse</string>
+    <string name="choose_image">Vælg billede</string>
+    <string name="change_image">Skift billede</string>
+    <string name="no_image_selected">Intet billede valgt</string>
+    <string name="no_image_message">Vælg et foto at komprimere og eksportere som JPEG.</string>
+    <string name="quality_percent">Kvalitet: %1$d%%</string>
+    <string name="quality_hint">Lavere kvalitet giver en mindre fil.</string>
+    <string name="compress_and_export">Komprimer &amp; eksportér</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Tilføj mindst én fil</string>
+    <string name="export_failed">Eksport mislykkedes</string>
+    <string name="error_unable_to_decode_image">Kunne ikke afkode billede</string>
+</resources>

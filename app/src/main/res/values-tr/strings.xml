@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Tara, dönüştür, sıkıştır, birleştir — saniyeler içinde bitti.</string>
+    <string name="action_scan">Tara</string>
+    <string name="action_image_to_pdf">Görsel → PDF</string>
+    <string name="action_compress">Sıkıştır</string>
+    <string name="action_merge">PDF Birleştir</string>
+    <string name="history">Geçmiş</string>
+    <string name="go_pro">Pro\'ya Geç</string>
+    <string name="export">Dışa Aktar</string>
+    <string name="share">Paylaş</string>
+    <string name="watch_ad_hd">HD / filigransız için reklam izle</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Tek seferlik satın alma. Abonelik yok.</string>
+    <string name="pro_benefit_ads">Tüm reklamları kaldır</string>
+    <string name="pro_benefit_hd">Filigransız HD dışa aktarma</string>
+    <string name="pro_benefit_batch">Toplu &amp; sınırsız birleştirme</string>
+    <string name="buy_pro">Pro\'yu Aç</string>
+    <string name="already_pro">Pro hesabınız var</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Geri</string>
+    <string name="cd_history">Geçmiş</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Sayfa yakala</string>
+    <string name="cd_move_up">Yukarı taşı</string>
+    <string name="cd_move_down">Aşağı taşı</string>
+    <string name="cd_remove">Kaldır</string>
+    <string name="continue_action">Devam</string>
+    <string name="add_more">Daha fazla ekle</string>
+    <string name="working">İşleniyor…</string>
+    <string name="share_with">Şununla paylaş</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Kameradan PDF\'ye yakalama</string>
+    <string name="home_image_to_pdf_subtitle">Galeri fotoğraflarından tek PDF</string>
+    <string name="home_compress_subtitle">Görsel dosya boyutunu küçült</string>
+    <string name="home_merge_subtitle">Birden fazla PDF\'yi birleştir</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Sayfa yakala</string>
+    <string name="camera_access_needed">Kamera erişimi gerekli</string>
+    <string name="camera_permission_message">Belgeleri PDF sayfalarına taramak için kamera iznine izin verin.</string>
+    <string name="grant_permission">İzin ver</string>
+    <string name="capture_page">Sayfa yakala</string>
+    <string name="capture_failed">Yakalama başarısız</string>
+    <string name="scan_preview">Tarama önizlemesi</string>
+
+    <plurals name="pages_captured">
+        <item quantity="one">%d sayfa yakalandı</item>
+        <item quantity="other">%d sayfa yakalandı</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d sayfa</item>
+        <item quantity="other">%d sayfa</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Son dışa aktarılanlar</string>
+    <string name="no_history_yet">Henüz geçmiş yok</string>
+    <string name="no_history_message">Dışa aktarılan PDF\'ler ve sıkıştırılmış görseller burada görünür.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Tek seferlik</string>
+    <string name="restore_purchase">Satın almayı geri yükle</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Faturalama kullanılamıyor (%1$s)</string>
+    <string name="billing_disconnected">Faturalama bağlantısı kesildi</string>
+    <string name="pro_unlocked_dev_fallback">Pro açıldı (geliştirici yedek — sürüm için Play ürününü yapılandırın)</string>
+    <string name="purchase_canceled">Satın alma iptal edildi</string>
+    <string name="pro_unlocked">Pro açıldı</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Paylaşmaya hazır</string>
+    <string name="export_saved_message">Dosyanız kaydedildi. Şimdi paylaşın veya sonraki dışa aktarma için HD kaliteyi açın.</string>
+    <string name="file_not_found">Dosya bulunamadı</string>
+    <string name="hd_unlocked_export_again">HD açıldı — HD / filigransız için yeniden dışa aktarın</string>
+    <string name="hd_unlock_active">Sonraki dışa aktarma için HD açık</string>
+    <string name="back_to_home">Ana sayfaya dön</string>
+    <string name="export_default_name">disa_aktarim</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Devam etmek için sayfa ekleyin</string>
+    <string name="add_images">Görsel ekle</string>
+    <string name="export_pdf">PDF dışa aktar</string>
+    <string name="hd_no_watermark_unlocked">HD / filigransız açıldı</string>
+    <string name="no_pages_yet">Henüz sayfa yok</string>
+    <string name="no_pages_message">Sıralamak, kaldırmak ve PDF olarak dışa aktarmak için fotoğraf ekleyin.</string>
+    <string name="page_number">Sayfa %1$d</string>
+    <string name="drag_order_with_arrows">Oklarla sırayı değiştirin</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Dosyaları sırayla birleştirin</string>
+    <string name="add_pdfs">PDF ekle</string>
+    <string name="merge_action">Birleştir</string>
+    <string name="no_pdfs_yet">Henüz PDF yok</string>
+    <string name="no_pdfs_message">Tek belgede birleştirmek için en az iki PDF seçin.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Dosya %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d dosya seçildi</item>
+        <item quantity="other">%d dosya seçildi</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Görseli sıkıştır</string>
+    <string name="compress_subtitle">Kalite ve boyut dengesi</string>
+    <string name="choose_image">Görsel seç</string>
+    <string name="change_image">Görseli değiştir</string>
+    <string name="no_image_selected">Görsel seçilmedi</string>
+    <string name="no_image_message">Sıkıştırıp JPEG olarak dışa aktarmak için bir fotoğraf seçin.</string>
+    <string name="quality_percent">Kalite: %1$d%%</string>
+    <string name="quality_hint">Düşük kalite daha küçük dosya oluşturur.</string>
+    <string name="compress_and_export">Sıkıştır &amp; dışa aktar</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">En az bir dosya ekleyin</string>
+    <string name="export_failed">Dışa aktarma başarısız</string>
+    <string name="error_unable_to_decode_image">Görsel çözülemedi</string>
+</resources>

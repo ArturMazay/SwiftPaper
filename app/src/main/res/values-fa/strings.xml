@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">اسکن، تبدیل، فشرده‌سازی، ادغام — در چند ثانیه تمام.</string>
+    <string name="action_scan">اسکن</string>
+    <string name="action_image_to_pdf">تصویر → PDF</string>
+    <string name="action_compress">فشرده‌سازی</string>
+    <string name="action_merge">ادغام PDF</string>
+    <string name="history">تاریخچه</string>
+    <string name="go_pro">ارتقا به Pro</string>
+    <string name="export">خروجی</string>
+    <string name="share">اشتراک‌گذاری</string>
+    <string name="watch_ad_hd">تماشای تبلیغ برای HD / بدون واترمارک</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">خرید یک‌باره. بدون اشتراک.</string>
+    <string name="pro_benefit_ads">حذف همه تبلیغات</string>
+    <string name="pro_benefit_hd">خروجی HD بدون واترمارک</string>
+    <string name="pro_benefit_batch">ادغام دسته‌ای و نامحدود</string>
+    <string name="buy_pro">فعال‌سازی Pro</string>
+    <string name="already_pro">شما Pro دارید</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">بازگشت</string>
+    <string name="cd_history">تاریخچه</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">ثبت صفحه</string>
+    <string name="cd_move_up">انتقال به بالا</string>
+    <string name="cd_move_down">انتقال به پایین</string>
+    <string name="cd_remove">حذف</string>
+    <string name="continue_action">ادامه</string>
+    <string name="add_more">افزودن بیشتر</string>
+    <string name="working">در حال کار…</string>
+    <string name="share_with">اشتراک با</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">ثبت با دوربین به PDF</string>
+    <string name="home_image_to_pdf_subtitle">عکس‌های گالری به یک PDF</string>
+    <string name="home_compress_subtitle">کاهش حجم فایل تصویر</string>
+    <string name="home_merge_subtitle">ادغام چند PDF</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">ثبت صفحات</string>
+    <string name="camera_access_needed">دسترسی به دوربین لازم است</string>
+    <string name="camera_permission_message">برای اسکن اسناد به صفحات PDF، اجازه دوربین را بدهید.</string>
+    <string name="grant_permission">اعطای مجوز</string>
+    <string name="capture_page">ثبت صفحه</string>
+    <string name="capture_failed">ثبت ناموفق بود</string>
+    <string name="scan_preview">پیش‌نمایش اسکن</string>
+
+    <plurals name="pages_captured">
+        <item quantity="one">%d صفحه ثبت شد</item>
+        <item quantity="other">%d صفحه ثبت شد</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d صفحه</item>
+        <item quantity="other">%d صفحه</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">خروجی‌های اخیر</string>
+    <string name="no_history_yet">هنوز تاریخچه‌ای نیست</string>
+    <string name="no_history_message">PDFهای خروجی و تصاویر فشرده‌شده اینجا نشان داده می‌شوند.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">یک‌باره</string>
+    <string name="restore_purchase">بازیابی خرید</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">صورتحساب در دسترس نیست (%1$s)</string>
+    <string name="billing_disconnected">ارتباط صورتحساب قطع شد</string>
+    <string name="pro_unlocked_dev_fallback">Pro فعال شد (پشتیبان توسعه — محصول Play را برای انتشار پیکربندی کنید)</string>
+    <string name="purchase_canceled">خرید لغو شد</string>
+    <string name="pro_unlocked">Pro فعال شد</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">آماده اشتراک‌گذاری</string>
+    <string name="export_saved_message">فایل شما ذخیره شد. اکنون به اشتراک بگذارید یا کیفیت HD را برای خروجی بعدی باز کنید.</string>
+    <string name="file_not_found">فایل پیدا نشد</string>
+    <string name="hd_unlocked_export_again">HD باز شد — برای HD / بدون واترمارک دوباره خروجی بگیرید</string>
+    <string name="hd_unlock_active">باز کردن HD برای خروجی بعدی فعال است</string>
+    <string name="back_to_home">بازگشت به خانه</string>
+    <string name="export_default_name">خروجی</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">برای ادامه صفحات اضافه کنید</string>
+    <string name="add_images">افزودن تصاویر</string>
+    <string name="export_pdf">خروجی PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / بدون واترمارک باز شد</string>
+    <string name="no_pages_yet">هنوز صفحه‌ای نیست</string>
+    <string name="no_pages_message">عکس‌ها را برای مرتب‌سازی، حذف و خروجی PDF اضافه کنید.</string>
+    <string name="page_number">صفحه %1$d</string>
+    <string name="drag_order_with_arrows">ترتیب را با فلش‌ها تغییر دهید</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">فایل‌ها را به ترتیب ادغام کنید</string>
+    <string name="add_pdfs">افزودن PDF</string>
+    <string name="merge_action">ادغام</string>
+    <string name="no_pdfs_yet">هنوز PDF نیست</string>
+    <string name="no_pdfs_message">حداقل دو فایل PDF برای ادغام در یک سند انتخاب کنید.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">فایل %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d فایل انتخاب شد</item>
+        <item quantity="other">%d فایل انتخاب شد</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">فشرده‌سازی تصویر</string>
+    <string name="compress_subtitle">تعادل کیفیت و حجم</string>
+    <string name="choose_image">انتخاب تصویر</string>
+    <string name="change_image">تغییر تصویر</string>
+    <string name="no_image_selected">تصویری انتخاب نشده</string>
+    <string name="no_image_message">عکسی برای فشرده‌سازی و خروجی JPEG انتخاب کنید.</string>
+    <string name="quality_percent">کیفیت: %1$d%%</string>
+    <string name="quality_hint">کیفیت پایین‌تر فایل کوچک‌تری می‌سازد.</string>
+    <string name="compress_and_export">فشرده‌سازی و خروجی</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">حداقل یک فایل اضافه کنید</string>
+    <string name="export_failed">خروجی ناموفق بود</string>
+    <string name="error_unable_to_decode_image">امکان رمزگشایی تصویر نیست</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Scanează, convertește, comprimă, unește — gata în câteva secunde.</string>
+    <string name="action_scan">Scanează</string>
+    <string name="action_image_to_pdf">Imagine → PDF</string>
+    <string name="action_compress">Comprimă</string>
+    <string name="action_merge">Unește PDF</string>
+    <string name="history">Istoric</string>
+    <string name="go_pro">Treci la Pro</string>
+    <string name="export">Exportă</string>
+    <string name="share">Distribuie</string>
+    <string name="watch_ad_hd">Urmărește o reclamă pentru HD / fără filigran</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Deblocare unică. Fără abonamente.</string>
+    <string name="pro_benefit_ads">Elimină toate reclamele</string>
+    <string name="pro_benefit_hd">Exporturi HD fără filigran</string>
+    <string name="pro_benefit_batch">Uniri în lot și nelimitate</string>
+    <string name="buy_pro">Deblochează Pro</string>
+    <string name="already_pro">Ai deja Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Înapoi</string>
+    <string name="cd_history">Istoric</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Capturează pagina</string>
+    <string name="cd_move_up">Mută în sus</string>
+    <string name="cd_move_down">Mută în jos</string>
+    <string name="cd_remove">Elimină</string>
+    <string name="continue_action">Continuă</string>
+    <string name="add_more">Adaugă mai multe</string>
+    <string name="working">Se lucrează…</string>
+    <string name="share_with">Distribuie cu</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Captură cu camera în PDF</string>
+    <string name="home_image_to_pdf_subtitle">Poze din galerie într-un PDF</string>
+    <string name="home_compress_subtitle">Reduce dimensiunea fișierului imagine</string>
+    <string name="home_merge_subtitle">Combină mai multe PDF-uri</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Capturează pagini</string>
+    <string name="camera_access_needed">Este necesar accesul la cameră</string>
+    <string name="camera_permission_message">Permite accesul la cameră pentru a scana documente în pagini PDF.</string>
+    <string name="grant_permission">Acordă permisiunea</string>
+    <string name="capture_page">Capturează pagina</string>
+    <string name="capture_failed">Capturarea a eșuat</string>
+    <string name="scan_preview">Previzualizare scanare</string>
+    <plurals name="pages_captured">
+        <item quantity="one">%d pagină capturată</item>
+        <item quantity="few">%d pagini capturate</item>
+        <item quantity="other">%d de pagini capturate</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d pagină</item>
+        <item quantity="few">%d pagini</item>
+        <item quantity="other">%d de pagini</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Exporturi recente</string>
+    <string name="no_history_yet">Niciun istoric încă</string>
+    <string name="no_history_message">PDF-urile exportate și imaginile comprimate vor apărea aici.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Plată unică</string>
+    <string name="restore_purchase">Restaurează achiziția</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Facturare indisponibilă (%1$s)</string>
+    <string name="billing_disconnected">Facturare deconectată</string>
+    <string name="pro_unlocked_dev_fallback">Pro deblocat (rezervă de dezvoltare — configurează produsul Play pentru lansare)</string>
+    <string name="purchase_canceled">Achiziție anulată</string>
+    <string name="pro_unlocked">Pro deblocat</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Gata de distribuit</string>
+    <string name="export_saved_message">Fișierul tău este salvat. Distribuie-l acum sau deblochează calitatea HD pentru următorul export.</string>
+    <string name="file_not_found">Fișierul nu a fost găsit</string>
+    <string name="hd_unlocked_export_again">HD deblocat — exportă din nou pentru HD / fără filigran</string>
+    <string name="hd_unlock_active">Deblocare HD activă pentru următorul export</string>
+    <string name="back_to_home">Înapoi la început</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Adaugă pagini pentru a continua</string>
+    <string name="add_images">Adaugă imagini</string>
+    <string name="export_pdf">Exportă PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / fără filigran deblocat</string>
+    <string name="no_pages_yet">Nicio pagină încă</string>
+    <string name="no_pages_message">Adaugă poze pentru a reordona, elimina și exporta ca PDF.</string>
+    <string name="page_number">Pagina %1$d</string>
+    <string name="drag_order_with_arrows">Schimbă ordinea cu săgețile</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Combină fișierele în ordine</string>
+    <string name="add_pdfs">Adaugă PDF-uri</string>
+    <string name="merge_action">Unește</string>
+    <string name="no_pdfs_yet">Niciun PDF încă</string>
+    <string name="no_pdfs_message">Alege cel puțin două fișiere PDF pentru a le uni într-un document.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Fișier %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d fișier selectat</item>
+        <item quantity="few">%d fișiere selectate</item>
+        <item quantity="other">%d de fișiere selectate</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Comprimă imaginea</string>
+    <string name="compress_subtitle">Echilibrează calitatea și dimensiunea</string>
+    <string name="choose_image">Alege imaginea</string>
+    <string name="change_image">Schimbă imaginea</string>
+    <string name="no_image_selected">Nicio imagine selectată</string>
+    <string name="no_image_message">Alege o poză pentru a o comprima și exporta ca JPEG.</string>
+    <string name="quality_percent">Calitate: %1$d%%</string>
+    <string name="quality_hint">O calitate mai mică creează un fișier mai mic.</string>
+    <string name="compress_and_export">Comprimă și exportă</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Adaugă cel puțin un fișier</string>
+    <string name="export_failed">Exportul a eșuat</string>
+    <string name="error_unable_to_decode_image">Imaginea nu a putut fi decodată</string>
+</resources>

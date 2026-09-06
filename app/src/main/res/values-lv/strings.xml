@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Skenē, pārveido, saspiest, apvieno — gatavs sekundēs.</string>
+    <string name="action_scan">Skenēt</string>
+    <string name="action_image_to_pdf">Attēls → PDF</string>
+    <string name="action_compress">Saspiest</string>
+    <string name="action_merge">Apvienot PDF</string>
+    <string name="history">Vēsture</string>
+    <string name="go_pro">Pāriet uz Pro</string>
+    <string name="export">Eksportēt</string>
+    <string name="share">Kopīgot</string>
+    <string name="watch_ad_hd">Skatīties reklāmu HD / bez ūdenszīmes</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Vienreizējs pirkums. Bez abonementiem.</string>
+    <string name="pro_benefit_ads">Noņemt visas reklāmas</string>
+    <string name="pro_benefit_hd">HD eksports bez ūdenszīmes</string>
+    <string name="pro_benefit_batch">Masveida un neierobežota apvienošana</string>
+    <string name="buy_pro">Atbloķēt Pro</string>
+    <string name="already_pro">Jums ir Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Atpakaļ</string>
+    <string name="cd_history">Vēsture</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Uzņemt lapu</string>
+    <string name="cd_move_up">Pārvietot augšup</string>
+    <string name="cd_move_down">Pārvietot lejup</string>
+    <string name="cd_remove">Noņemt</string>
+    <string name="continue_action">Turpināt</string>
+    <string name="add_more">Pievienot vairāk</string>
+    <string name="working">Apstrādā…</string>
+    <string name="share_with">Kopīgot ar</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Kameras uzņemšana PDF</string>
+    <string name="home_image_to_pdf_subtitle">Galerijas foto vienā PDF</string>
+    <string name="home_compress_subtitle">Samazināt attēla faila izmēru</string>
+    <string name="home_merge_subtitle">Apvienot vairākus PDF</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Uzņemt lapas</string>
+    <string name="camera_access_needed">Nepieciešama piekļuve kamerai</string>
+    <string name="camera_permission_message">Atļaujiet kameras atļauju, lai skenētu dokumentus PDF lapās.</string>
+    <string name="grant_permission">Piešķirt atļauju</string>
+    <string name="capture_page">Uzņemt lapu</string>
+    <string name="capture_failed">Uzņemšana neizdevās</string>
+    <string name="scan_preview">Skenēšanas priekšskatījums</string>
+
+    <plurals name="pages_captured">
+        <item quantity="zero">%d lapu uzņemts</item>
+        <item quantity="one">%d lapa uzņemta</item>
+        <item quantity="other">%d lapas uzņemtas</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="zero">%d lapu</item>
+        <item quantity="one">%d lapa</item>
+        <item quantity="other">%d lapas</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Nesenie eksporta faili</string>
+    <string name="no_history_yet">Vēl nav vēstures</string>
+    <string name="no_history_message">Eksportētie PDF un saspiestie attēli parādīsies šeit.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Vienreizējs</string>
+    <string name="restore_purchase">Atjaunot pirkumu</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Norēķini nav pieejami (%1$s)</string>
+    <string name="billing_disconnected">Norēķini atvienoti</string>
+    <string name="pro_unlocked_dev_fallback">Pro atbloķēts (izstrādes rezerve — konfigurējiet Play produktu izlaidumam)</string>
+    <string name="purchase_canceled">Pirkums atcelts</string>
+    <string name="pro_unlocked">Pro atbloķēts</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Gatavs kopīgošanai</string>
+    <string name="export_saved_message">Fails ir saglabāts. Kopīgojiet to tagad vai atbloķējiet HD kvalitāti nākamajam eksportam.</string>
+    <string name="file_not_found">Fails nav atrasts</string>
+    <string name="hd_unlocked_export_again">HD atbloķēts — eksportējiet vēlreiz HD / bez ūdenszīmes</string>
+    <string name="hd_unlock_active">HD atbloķēšana aktīva nākamajam eksportam</string>
+    <string name="back_to_home">Atpakaļ uz sākumu</string>
+    <string name="export_default_name">eksports</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Pievienojiet lapas, lai turpinātu</string>
+    <string name="add_images">Pievienot attēlus</string>
+    <string name="export_pdf">Eksportēt PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / bez ūdenszīmes atbloķēts</string>
+    <string name="no_pages_yet">Vēl nav lapu</string>
+    <string name="no_pages_message">Pievienojiet foto, lai pārkārtotu, noņemtu un eksportētu kā PDF.</string>
+    <string name="page_number">Lapa %1$d</string>
+    <string name="drag_order_with_arrows">Mainiet secību ar bultiņām</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Apvienojiet failus secībā</string>
+    <string name="add_pdfs">Pievienot PDF</string>
+    <string name="merge_action">Apvienot</string>
+    <string name="no_pdfs_yet">Vēl nav PDF</string>
+    <string name="no_pdfs_message">Izvēlieties vismaz divus PDF failus, lai apvienotu vienā dokumentā.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Fails %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="zero">%d failu atlasīts</item>
+        <item quantity="one">%d fails atlasīts</item>
+        <item quantity="other">%d faili atlasīti</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Saspiest attēlu</string>
+    <string name="compress_subtitle">Kvalitātes un izmēra līdzsvars</string>
+    <string name="choose_image">Izvēlēties attēlu</string>
+    <string name="change_image">Mainīt attēlu</string>
+    <string name="no_image_selected">Attēls nav izvēlēts</string>
+    <string name="no_image_message">Izvēlieties foto, lai saspiestu un eksportētu kā JPEG.</string>
+    <string name="quality_percent">Kvalitāte: %1$d%%</string>
+    <string name="quality_hint">Zemāka kvalitāte veido mazāku failu.</string>
+    <string name="compress_and_export">Saspiest un eksportēt</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Pievienojiet vismaz vienu failu</string>
+    <string name="export_failed">Eksports neizdevās</string>
+    <string name="error_unable_to_decode_image">Nevar atkodēt attēlu</string>
+</resources>

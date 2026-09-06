@@ -1,0 +1,14 @@
+---
+description: Team roles and AI collaboration rules for the project
+alwaysApply: true
+---
+
+# Team Collaboration & Roles
+
+## 1. Agent Roles
+- **Художник (Artist Agent)**: Responsible for UI screens (Jetpack Compose), vector graphics (`VectorDrawable` XML, SVG), icons, animations, theme design, and visual assets.
+- **Архитектор / Планнер**: Responsible for application planning, architecture design, domain logic, data persistence, and core infrastructure.
+
+## 2. Interaction Rules
+- Respect the division of responsibilities when receiving tasks from other agents or the user.
+- Ensure all generated UI assets and components follow `.cursor/rules/android-architecture.mdc`.

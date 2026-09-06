@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Skanni, teisenda, tihenda, ühenda — valmis sekunditega.</string>
+    <string name="action_scan">Skanni</string>
+    <string name="action_image_to_pdf">Pilt → PDF</string>
+    <string name="action_compress">Tihenda</string>
+    <string name="action_merge">Ühenda PDF</string>
+    <string name="history">Ajalugu</string>
+    <string name="go_pro">Mine Pro-le</string>
+    <string name="export">Ekspordi</string>
+    <string name="share">Jaga</string>
+    <string name="watch_ad_hd">Vaata reklaami HD / vesimärgita jaoks</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Ühekordne ost. Ilma tellimusteta.</string>
+    <string name="pro_benefit_ads">Eemalda kõik reklaamid</string>
+    <string name="pro_benefit_hd">HD eksport ilma vesimärgita</string>
+    <string name="pro_benefit_batch">Hulgi- ja piiramatu ühendamine</string>
+    <string name="buy_pro">Ava Pro</string>
+    <string name="already_pro">Sul on Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Tagasi</string>
+    <string name="cd_history">Ajalugu</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Jäädvusta leht</string>
+    <string name="cd_move_up">Liiguta üles</string>
+    <string name="cd_move_down">Liiguta alla</string>
+    <string name="cd_remove">Eemalda</string>
+    <string name="continue_action">Jätka</string>
+    <string name="add_more">Lisa rohkem</string>
+    <string name="working">Töötleb…</string>
+    <string name="share_with">Jaga rakendusega</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Kaameraga jäädvustus PDF-iks</string>
+    <string name="home_image_to_pdf_subtitle">Galerii fotod üheks PDF-iks</string>
+    <string name="home_compress_subtitle">Vähenda pildifaili suurust</string>
+    <string name="home_merge_subtitle">Ühenda mitu PDF-i</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Jäädvusta lehed</string>
+    <string name="camera_access_needed">Vaja on kaamera juurdepääsu</string>
+    <string name="camera_permission_message">Luba kaameraõigus dokumentide skannimiseks PDF-lehtedeks.</string>
+    <string name="grant_permission">Anna luba</string>
+    <string name="capture_page">Jäädvusta leht</string>
+    <string name="capture_failed">Jäädvustamine ebaõnnestus</string>
+    <string name="scan_preview">Skanni eelvaade</string>
+
+    <plurals name="pages_captured">
+        <item quantity="one">%d leht jäädvustatud</item>
+        <item quantity="other">%d lehte jäädvustatud</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d leht</item>
+        <item quantity="other">%d lehte</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Viimased ekspordid</string>
+    <string name="no_history_yet">Ajalugu puudub</string>
+    <string name="no_history_message">Eksporditud PDF-id ja tihendatud pildid ilmuvad siia.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Ühekordne</string>
+    <string name="restore_purchase">Taasta ost</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Arveldus pole saadaval (%1$s)</string>
+    <string name="billing_disconnected">Arveldus on ühenduseta</string>
+    <string name="pro_unlocked_dev_fallback">Pro avatud (arendaja varuvariant — seadista Play toode väljalaskeks)</string>
+    <string name="purchase_canceled">Ost tühistati</string>
+    <string name="pro_unlocked">Pro avatud</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Valmis jagamiseks</string>
+    <string name="export_saved_message">Fail on salvestatud. Jaga seda kohe või ava HD-kvaliteet järgmiseks ekspordiks.</string>
+    <string name="file_not_found">Faili ei leitud</string>
+    <string name="hd_unlocked_export_again">HD avatud — ekspordi uuesti HD / vesimärgita jaoks</string>
+    <string name="hd_unlock_active">HD avamine on aktiivne järgmiseks ekspordiks</string>
+    <string name="back_to_home">Tagasi avalehele</string>
+    <string name="export_default_name">eksport</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Jätkamiseks lisa lehti</string>
+    <string name="add_images">Lisa pilte</string>
+    <string name="export_pdf">Ekspordi PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / vesimärgita avatud</string>
+    <string name="no_pages_yet">Lehti pole veel</string>
+    <string name="no_pages_message">Lisa fotosid ümberjärjestamiseks, eemaldamiseks ja PDF-iks eksportimiseks.</string>
+    <string name="page_number">Leht %1$d</string>
+    <string name="drag_order_with_arrows">Muuda järjekorda nooltega</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Ühenda failid järjekorras</string>
+    <string name="add_pdfs">Lisa PDF-e</string>
+    <string name="merge_action">Ühenda</string>
+    <string name="no_pdfs_yet">PDF-e pole veel</string>
+    <string name="no_pdfs_message">Vali vähemalt kaks PDF-faili üheks dokumendiks ühendamiseks.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Fail %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d fail valitud</item>
+        <item quantity="other">%d faili valitud</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Tihenda pilti</string>
+    <string name="compress_subtitle">Tasakaalusta kvaliteet ja suurus</string>
+    <string name="choose_image">Vali pilt</string>
+    <string name="change_image">Vaheta pilti</string>
+    <string name="no_image_selected">Pilti pole valitud</string>
+    <string name="no_image_message">Vali foto tihendamiseks ja JPEG-iks eksportimiseks.</string>
+    <string name="quality_percent">Kvaliteet: %1$d%%</string>
+    <string name="quality_hint">Madalam kvaliteet loob väiksema faili.</string>
+    <string name="compress_and_export">Tihenda ja ekspordi</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Lisa vähemalt üks fail</string>
+    <string name="export_failed">Eksport ebaõnnestus</string>
+    <string name="error_unable_to_decode_image">Pilti ei õnnestunud dekodeerida</string>
+</resources>

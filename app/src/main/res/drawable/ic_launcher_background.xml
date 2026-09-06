@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Solid Dark Slate background -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- Soft ambient gradient glow in top right -->
+    <path
+        android:fillColor="#0F766E"
+        android:fillAlpha="0.25"
+        android:pathData="M54,0 h54 v54 c-30,0 -54,-24 -54,-54 z" />
+
+    <!-- Soft ambient gradient glow in bottom left -->
+    <path
+        android:fillColor="#0D9488"
+        android:fillAlpha="0.15"
+        android:pathData="M0,54 v54 h54 c0,-30 -24,-54 -54,-54 z" />
+</vector>

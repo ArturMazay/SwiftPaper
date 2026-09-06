@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">স্ক্যান, রূপান্তর, সংকোচন, একত্র — সেকেন্ডেই শেষ।</string>
+    <string name="action_scan">স্ক্যান</string>
+    <string name="action_image_to_pdf">ছবি → PDF</string>
+    <string name="action_compress">সংকোচন</string>
+    <string name="action_merge">PDF একত্র করুন</string>
+    <string name="history">ইতিহাস</string>
+    <string name="go_pro">Go Pro</string>
+    <string name="export">রপ্তানি</string>
+    <string name="share">শেয়ার</string>
+    <string name="watch_ad_hd">HD / ওয়াটারমার্ক ছাড়া পেতে বিজ্ঞাপন দেখুন</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">একবারে আনলক। কোনো সাবস্ক্রিপশন নেই।</string>
+    <string name="pro_benefit_ads">সব বিজ্ঞাপন সরান</string>
+    <string name="pro_benefit_hd">ওয়াটারমার্ক ছাড়া HD রপ্তানি</string>
+    <string name="pro_benefit_batch">ব্যাচ ও সীমাহীন মার্জ</string>
+    <string name="buy_pro">Pro আনলক করুন</string>
+    <string name="already_pro">আপনার Pro আছে</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">পিছনে</string>
+    <string name="cd_history">ইতিহাস</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">পৃষ্ঠা ক্যাপচার করুন</string>
+    <string name="cd_move_up">উপরে সরান</string>
+    <string name="cd_move_down">নিচে সরান</string>
+    <string name="cd_remove">সরান</string>
+    <string name="continue_action">চালিয়ে যান</string>
+    <string name="add_more">আরও যোগ করুন</string>
+    <string name="working">কাজ চলছে…</string>
+    <string name="share_with">শেয়ার করুন</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">ক্যামেরা ক্যাপচার থেকে PDF</string>
+    <string name="home_image_to_pdf_subtitle">গ্যালারি ছবি থেকে একটি PDF</string>
+    <string name="home_compress_subtitle">ছবির ফাইল সাইজ কমান</string>
+    <string name="home_merge_subtitle">একাধিক PDF একত্র করুন</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">পৃষ্ঠা ক্যাপচার করুন</string>
+    <string name="camera_access_needed">ক্যামেরা অ্যাক্সেস প্রয়োজন</string>
+    <string name="camera_permission_message">নথি স্ক্যান করে PDF পৃষ্ঠায় রূপান্তর করতে ক্যামেরার অনুমতি দিন।</string>
+    <string name="grant_permission">অনুমতি দিন</string>
+    <string name="capture_page">পৃষ্ঠা ক্যাপচার করুন</string>
+    <string name="capture_failed">ক্যাপচার ব্যর্থ</string>
+    <string name="scan_preview">স্ক্যান প্রিভিউ</string>
+    <plurals name="pages_captured">
+        <item quantity="one">%d পৃষ্ঠা ক্যাপচার হয়েছে</item>
+        <item quantity="other">%d পৃষ্ঠা ক্যাপচার হয়েছে</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d পৃষ্ঠা</item>
+        <item quantity="other">%d পৃষ্ঠা</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">সাম্প্রতিক রপ্তানি</string>
+    <string name="no_history_yet">এখনো কোনো ইতিহাস নেই</string>
+    <string name="no_history_message">রপ্তানি করা PDF এবং সংকুচিত ছবি এখানে দেখা যাবে।</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">একবার</string>
+    <string name="restore_purchase">কেনাকাটা পুনরুদ্ধার করুন</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">বিলিং উপলব্ধ নয় (%1$s)</string>
+    <string name="billing_disconnected">বিলিং সংযোগ বিচ্ছিন্ন</string>
+    <string name="pro_unlocked_dev_fallback">Pro আনলক (ডেভ ফলব্যাক — রিলিজের জন্য Play পণ্য কনফিগার করুন)</string>
+    <string name="purchase_canceled">কেনাকাটা বাতিল</string>
+    <string name="pro_unlocked">Pro আনলক হয়েছে</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">শেয়ার করার জন্য প্রস্তুত</string>
+    <string name="export_saved_message">আপনার ফাইল সংরক্ষিত হয়েছে। এখনই শেয়ার করুন, অথবা পরবর্তী রপ্তানির জন্য HD কোয়ালিটি আনলক করুন।</string>
+    <string name="file_not_found">ফাইল পাওয়া যায়নি</string>
+    <string name="hd_unlocked_export_again">HD আনলক — HD / ওয়াটারমার্ক ছাড়া আবার রপ্তানি করুন</string>
+    <string name="hd_unlock_active">পরবর্তী রপ্তানির জন্য HD আনলক সক্রিয়</string>
+    <string name="back_to_home">হোমে ফিরুন</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">চালিয়ে যেতে পৃষ্ঠা যোগ করুন</string>
+    <string name="add_images">ছবি যোগ করুন</string>
+    <string name="export_pdf">PDF রপ্তানি করুন</string>
+    <string name="hd_no_watermark_unlocked">HD / ওয়াটারমার্ক ছাড়া আনলক</string>
+    <string name="no_pages_yet">এখনো কোনো পৃষ্ঠা নেই</string>
+    <string name="no_pages_message">সাজাতে, সরাতে এবং PDF হিসেবে রপ্তানি করতে ছবি যোগ করুন।</string>
+    <string name="page_number">পৃষ্ঠা %1$d</string>
+    <string name="drag_order_with_arrows">তীর দিয়ে ক্রম সাজান</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">ক্রমানুসারে ফাইল একত্র করুন</string>
+    <string name="add_pdfs">PDF যোগ করুন</string>
+    <string name="merge_action">একত্র করুন</string>
+    <string name="no_pdfs_yet">এখনো কোনো PDF নেই</string>
+    <string name="no_pdfs_message">একটি নথিতে মার্জ করতে কমপক্ষে দুটি PDF ফাইল বেছে নিন।</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">ফাইল %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d ফাইল নির্বাচিত</item>
+        <item quantity="other">%d ফাইল নির্বাচিত</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">ছবি সংকুচিত করুন</string>
+    <string name="compress_subtitle">মান ও আকারের ভারসাম্য</string>
+    <string name="choose_image">ছবি বেছে নিন</string>
+    <string name="change_image">ছবি বদলান</string>
+    <string name="no_image_selected">কোনো ছবি নির্বাচিত নয়</string>
+    <string name="no_image_message">সংকুচিত করে JPEG হিসেবে রপ্তানি করতে একটি ছবি বেছে নিন।</string>
+    <string name="quality_percent">মান: %1$d%%</string>
+    <string name="quality_hint">কম মানে ছোট ফাইল তৈরি হয়।</string>
+    <string name="compress_and_export">সংকুচিত ও রপ্তানি করুন</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">কমপক্ষে একটি ফাইল যোগ করুন</string>
+    <string name="export_failed">রপ্তানি ব্যর্থ</string>
+    <string name="error_unable_to_decode_image">ছবি ডিকোড করা যায়নি</string>
+</resources>

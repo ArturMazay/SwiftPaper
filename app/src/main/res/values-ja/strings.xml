@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">スキャン、変換、圧縮、結合 — 数秒で完了。</string>
+    <string name="action_scan">スキャン</string>
+    <string name="action_image_to_pdf">画像 → PDF</string>
+    <string name="action_compress">圧縮</string>
+    <string name="action_merge">PDFを結合</string>
+    <string name="history">履歴</string>
+    <string name="go_pro">Proにアップグレード</string>
+    <string name="export">書き出し</string>
+    <string name="share">共有</string>
+    <string name="watch_ad_hd">広告を見てHD / 透かしなし</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">買い切り。サブスクなし。</string>
+    <string name="pro_benefit_ads">すべての広告を削除</string>
+    <string name="pro_benefit_hd">透かしなしのHD書き出し</string>
+    <string name="pro_benefit_batch">一括＆無制限の結合</string>
+    <string name="buy_pro">Proを解除</string>
+    <string name="already_pro">Pro利用中</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">戻る</string>
+    <string name="cd_history">履歴</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">ページを撮影</string>
+    <string name="cd_move_up">上へ移動</string>
+    <string name="cd_move_down">下へ移動</string>
+    <string name="cd_remove">削除</string>
+    <string name="continue_action">続ける</string>
+    <string name="add_more">さらに追加</string>
+    <string name="working">処理中…</string>
+    <string name="share_with">共有先</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">カメラで撮影してPDFに</string>
+    <string name="home_image_to_pdf_subtitle">ギャラリーの写真を1つのPDFに</string>
+    <string name="home_compress_subtitle">画像ファイルサイズを縮小</string>
+    <string name="home_merge_subtitle">複数のPDFを結合</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">ページを撮影</string>
+    <string name="camera_access_needed">カメラへのアクセスが必要です</string>
+    <string name="camera_permission_message">書類をスキャンしてPDFページにするには、カメラの許可が必要です。</string>
+    <string name="grant_permission">許可する</string>
+    <string name="capture_page">ページを撮影</string>
+    <string name="capture_failed">撮影に失敗しました</string>
+    <string name="scan_preview">スキャンプレビュー</string>
+    <plurals name="pages_captured">
+        <item quantity="other">%dページを撮影済み</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="other">%dページ</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">最近の書き出し</string>
+    <string name="no_history_yet">履歴はまだありません</string>
+    <string name="no_history_message">書き出したPDFや圧縮した画像がここに表示されます。</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">買い切り</string>
+    <string name="restore_purchase">購入を復元</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">課金を利用できません（%1$s）</string>
+    <string name="billing_disconnected">課金サービスに接続できません</string>
+    <string name="pro_unlocked_dev_fallback">Pro解除済み（開発用フォールバック — リリース時はPlayの商品を設定してください）</string>
+    <string name="purchase_canceled">購入をキャンセルしました</string>
+    <string name="pro_unlocked">Proを解除しました</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">共有の準備完了</string>
+    <string name="export_saved_message">ファイルを保存しました。今すぐ共有するか、次回の書き出しでHD画質を解除できます。</string>
+    <string name="file_not_found">ファイルが見つかりません</string>
+    <string name="hd_unlocked_export_again">HD解除済み — もう一度書き出してHD / 透かしなしに</string>
+    <string name="hd_unlock_active">次回の書き出しでHD解除が有効です</string>
+    <string name="back_to_home">ホームに戻る</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">続けるにはページを追加</string>
+    <string name="add_images">画像を追加</string>
+    <string name="export_pdf">PDFを書き出し</string>
+    <string name="hd_no_watermark_unlocked">HD / 透かしなし解除済み</string>
+    <string name="no_pages_yet">ページはまだありません</string>
+    <string name="no_pages_message">写真を追加して並び替え、削除、PDFとして書き出せます。</string>
+    <string name="page_number">ページ %1$d</string>
+    <string name="drag_order_with_arrows">矢印で順番を変更</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">ファイルを順番に結合</string>
+    <string name="add_pdfs">PDFを追加</string>
+    <string name="merge_action">結合</string>
+    <string name="no_pdfs_yet">PDFはまだありません</string>
+    <string name="no_pdfs_message">1つの文書にまとめるには、PDFを2つ以上選んでください。</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">ファイル %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="other">%d件のファイルを選択中</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">画像を圧縮</string>
+    <string name="compress_subtitle">画質とサイズのバランス</string>
+    <string name="choose_image">画像を選択</string>
+    <string name="change_image">画像を変更</string>
+    <string name="no_image_selected">画像が選択されていません</string>
+    <string name="no_image_message">写真を選んで圧縮し、JPEGとして書き出します。</string>
+    <string name="quality_percent">画質: %1$d%%</string>
+    <string name="quality_hint">画質を下げるとファイルが小さくなります。</string>
+    <string name="compress_and_export">圧縮して書き出し</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">ファイルを1つ以上追加してください</string>
+    <string name="export_failed">書き出しに失敗しました</string>
+    <string name="error_unable_to_decode_image">画像を読み込めません</string>
+</resources>

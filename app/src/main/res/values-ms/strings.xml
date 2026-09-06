@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Imbas, tukar, mampat, gabung — siap dalam beberapa saat.</string>
+    <string name="action_scan">Imbas</string>
+    <string name="action_image_to_pdf">Imej → PDF</string>
+    <string name="action_compress">Mampat</string>
+    <string name="action_merge">Gabung PDF</string>
+    <string name="history">Sejarah</string>
+    <string name="go_pro">Go Pro</string>
+    <string name="export">Eksport</string>
+    <string name="share">Kongsi</string>
+    <string name="watch_ad_hd">Tonton iklan untuk HD / tanpa tanda air</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Buka sekali bayar. Tiada langganan.</string>
+    <string name="pro_benefit_ads">Buang semua iklan</string>
+    <string name="pro_benefit_hd">Eksport HD tanpa tanda air</string>
+    <string name="pro_benefit_batch">Gabungan kelompok &amp; tanpa had</string>
+    <string name="buy_pro">Buka Pro</string>
+    <string name="already_pro">Anda mempunyai Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Kembali</string>
+    <string name="cd_history">Sejarah</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Tangkap halaman</string>
+    <string name="cd_move_up">Alih ke atas</string>
+    <string name="cd_move_down">Alih ke bawah</string>
+    <string name="cd_remove">Buang</string>
+    <string name="continue_action">Teruskan</string>
+    <string name="add_more">Tambah lagi</string>
+    <string name="working">Sedang diproses…</string>
+    <string name="share_with">Kongsi dengan</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Tangkap kamera kepada PDF</string>
+    <string name="home_image_to_pdf_subtitle">Foto galeri kepada satu PDF</string>
+    <string name="home_compress_subtitle">Kecilkan saiz fail imej</string>
+    <string name="home_merge_subtitle">Gabungkan berbilang PDF</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Tangkap halaman</string>
+    <string name="camera_access_needed">Akses kamera diperlukan</string>
+    <string name="camera_permission_message">Benarkan kebenaran kamera untuk mengimbas dokumen menjadi halaman PDF.</string>
+    <string name="grant_permission">Berikan kebenaran</string>
+    <string name="capture_page">Tangkap halaman</string>
+    <string name="capture_failed">Penangkapan gagal</string>
+    <string name="scan_preview">Pratonton imbasan</string>
+    <plurals name="pages_captured">
+        <item quantity="one">%d halaman ditangkap</item>
+        <item quantity="other">%d halaman ditangkap</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d halaman</item>
+        <item quantity="other">%d halaman</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Eksport terkini</string>
+    <string name="no_history_yet">Belum ada sejarah</string>
+    <string name="no_history_message">PDF yang dieksport dan imej yang dimampatkan akan dipaparkan di sini.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Sekali bayar</string>
+    <string name="restore_purchase">Pulihkan pembelian</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Pengebilan tidak tersedia (%1$s)</string>
+    <string name="billing_disconnected">Pengebilan terputus</string>
+    <string name="pro_unlocked_dev_fallback">Pro dibuka (sandaran pembangun — konfigurasikan produk Play untuk keluaran)</string>
+    <string name="purchase_canceled">Pembelian dibatalkan</string>
+    <string name="pro_unlocked">Pro dibuka</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Sedia untuk dikongsi</string>
+    <string name="export_saved_message">Fail anda telah disimpan. Kongsi sekarang, atau buka kualiti HD untuk eksport seterusnya.</string>
+    <string name="file_not_found">Fail tidak dijumpai</string>
+    <string name="hd_unlocked_export_again">HD dibuka — eksport lagi untuk HD / tanpa tanda air</string>
+    <string name="hd_unlock_active">Buka HD aktif untuk eksport seterusnya</string>
+    <string name="back_to_home">Kembali ke laman utama</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Tambah halaman untuk meneruskan</string>
+    <string name="add_images">Tambah imej</string>
+    <string name="export_pdf">Eksport PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / tanpa tanda air dibuka</string>
+    <string name="no_pages_yet">Belum ada halaman</string>
+    <string name="no_pages_message">Tambah foto untuk menyusun semula, membuang, dan mengeksport sebagai PDF.</string>
+    <string name="page_number">Halaman %1$d</string>
+    <string name="drag_order_with_arrows">Susun tertib dengan anak panah</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Gabungkan fail mengikut tertib</string>
+    <string name="add_pdfs">Tambah PDF</string>
+    <string name="merge_action">Gabung</string>
+    <string name="no_pdfs_yet">Belum ada PDF</string>
+    <string name="no_pdfs_message">Pilih sekurang-kurangnya dua fail PDF untuk digabungkan menjadi satu dokumen.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Fail %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d fail dipilih</item>
+        <item quantity="other">%d fail dipilih</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Mampat imej</string>
+    <string name="compress_subtitle">Seimbangkan kualiti dan saiz</string>
+    <string name="choose_image">Pilih imej</string>
+    <string name="change_image">Tukar imej</string>
+    <string name="no_image_selected">Tiada imej dipilih</string>
+    <string name="no_image_message">Pilih foto untuk dimampatkan dan dieksport sebagai JPEG.</string>
+    <string name="quality_percent">Kualiti: %1$d%%</string>
+    <string name="quality_hint">Kualiti lebih rendah menghasilkan fail lebih kecil.</string>
+    <string name="compress_and_export">Mampat &amp; eksport</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Tambah sekurang-kurangnya satu fail</string>
+    <string name="export_failed">Eksport gagal</string>
+    <string name="error_unable_to_decode_image">Tidak dapat menyahkod imej</string>
+</resources>

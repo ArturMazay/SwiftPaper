@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Skan et, çevir, sıxışdır, birləşdir — saniyələr içində hazır.</string>
+    <string name="action_scan">Skan et</string>
+    <string name="action_image_to_pdf">Şəkil → PDF</string>
+    <string name="action_compress">Sıxışdır</string>
+    <string name="action_merge">PDF birləşdir</string>
+    <string name="history">Tarixçə</string>
+    <string name="go_pro">Pro-ya keç</string>
+    <string name="export">İxrac et</string>
+    <string name="share">Paylaş</string>
+    <string name="watch_ad_hd">HD / su nişanı olmadan üçün reklam izlə</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Birdəfəlik alış. Abunəlik yoxdur.</string>
+    <string name="pro_benefit_ads">Bütün reklamları sil</string>
+    <string name="pro_benefit_hd">Su nişanı olmadan HD ixrac</string>
+    <string name="pro_benefit_batch">Toplu və limitsiz birləşdirmə</string>
+    <string name="buy_pro">Pro-nu aç</string>
+    <string name="already_pro">Sizin Pro-nuz var</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Geri</string>
+    <string name="cd_history">Tarixçə</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Səhifə çək</string>
+    <string name="cd_move_up">Yuxarı köçür</string>
+    <string name="cd_move_down">Aşağı köçür</string>
+    <string name="cd_remove">Sil</string>
+    <string name="continue_action">Davam et</string>
+    <string name="add_more">Daha çox əlavə et</string>
+    <string name="working">İşlənir…</string>
+    <string name="share_with">Bununla paylaş</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Kameradan PDF-ə çəkmə</string>
+    <string name="home_image_to_pdf_subtitle">Qalereya şəkillərindən bir PDF</string>
+    <string name="home_compress_subtitle">Şəkil fayl ölçüsünü kiçilt</string>
+    <string name="home_merge_subtitle">Bir neçə PDF-i birləşdir</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Səhifələri çək</string>
+    <string name="camera_access_needed">Kamera girişi lazımdır</string>
+    <string name="camera_permission_message">Sənədləri PDF səhifələrinə skan etmək üçün kamera icazəsi verin.</string>
+    <string name="grant_permission">İcazə ver</string>
+    <string name="capture_page">Səhifə çək</string>
+    <string name="capture_failed">Çəkim uğursuz oldu</string>
+    <string name="scan_preview">Skan önbaxışı</string>
+
+    <plurals name="pages_captured">
+        <item quantity="one">%d səhifə çəkildi</item>
+        <item quantity="other">%d səhifə çəkildi</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d səhifə</item>
+        <item quantity="other">%d səhifə</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Son ixraclar</string>
+    <string name="no_history_yet">Hələ tarixçə yoxdur</string>
+    <string name="no_history_message">İxrac edilmiş PDF-lər və sıxışdırılmış şəkillər burada görünəcək.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Birdəfəlik</string>
+    <string name="restore_purchase">Alışı bərpa et</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Ödəniş əlçatan deyil (%1$s)</string>
+    <string name="billing_disconnected">Ödəniş bağlantısı kəsildi</string>
+    <string name="pro_unlocked_dev_fallback">Pro açıldı (inkişaf ehtiyatı — buraxılış üçün Play məhsulunu konfiqurasiya edin)</string>
+    <string name="purchase_canceled">Alış ləğv edildi</string>
+    <string name="pro_unlocked">Pro açıldı</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Paylaşmağa hazır</string>
+    <string name="export_saved_message">Faylınız yadda saxlanıldı. İndi paylaşın və ya növbəti ixrac üçün HD keyfiyyəti açın.</string>
+    <string name="file_not_found">Fayl tapılmadı</string>
+    <string name="hd_unlocked_export_again">HD açıldı — HD / su nişanı olmadan üçün yenidən ixrac edin</string>
+    <string name="hd_unlock_active">Növbəti ixrac üçün HD açıqdır</string>
+    <string name="back_to_home">Ana səhifəyə qayıt</string>
+    <string name="export_default_name">ixrac</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Davam etmək üçün səhifə əlavə edin</string>
+    <string name="add_images">Şəkil əlavə et</string>
+    <string name="export_pdf">PDF ixrac et</string>
+    <string name="hd_no_watermark_unlocked">HD / su nişanı olmadan açıldı</string>
+    <string name="no_pages_yet">Hələ səhifə yoxdur</string>
+    <string name="no_pages_message">Sıralamaq, silmək və PDF kimi ixrac etmək üçün foto əlavə edin.</string>
+    <string name="page_number">Səhifə %1$d</string>
+    <string name="drag_order_with_arrows">Oxlarla sıranı dəyişin</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Faylları sırayla birləşdirin</string>
+    <string name="add_pdfs">PDF əlavə et</string>
+    <string name="merge_action">Birləşdir</string>
+    <string name="no_pdfs_yet">Hələ PDF yoxdur</string>
+    <string name="no_pdfs_message">Bir sənədə birləşdirmək üçün ən azı iki PDF seçin.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Fayl %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d fayl seçildi</item>
+        <item quantity="other">%d fayl seçildi</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Şəkli sıxışdır</string>
+    <string name="compress_subtitle">Keyfiyyət və ölçü balansı</string>
+    <string name="choose_image">Şəkil seç</string>
+    <string name="change_image">Şəkli dəyiş</string>
+    <string name="no_image_selected">Şəkil seçilməyib</string>
+    <string name="no_image_message">Sıxışdırıb JPEG kimi ixrac etmək üçün foto seçin.</string>
+    <string name="quality_percent">Keyfiyyət: %1$d%%</string>
+    <string name="quality_hint">Aşağı keyfiyyət daha kiçik fayl yaradır.</string>
+    <string name="compress_and_export">Sıxışdır və ixrac et</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Ən azı bir fayl əlavə edin</string>
+    <string name="export_failed">İxrac uğursuz oldu</string>
+    <string name="error_unable_to_decode_image">Şəkli dekod etmək mümkün olmadı</string>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">ស្កេន បម្លែង បង្ហាប់ បញ្ចូលគ្នា — រួចក្នុងរយៈពេលប៉ុន្មានវិនាទី។</string>
+    <string name="action_scan">ស្កេន</string>
+    <string name="action_image_to_pdf">រូបភាព → PDF</string>
+    <string name="action_compress">បង្ហាប់</string>
+    <string name="action_merge">បញ្ចូល PDF</string>
+    <string name="history">ប្រវត្តិ</string>
+    <string name="go_pro">Go Pro</string>
+    <string name="export">នាំចេញ</string>
+    <string name="share">ចែករំលែក</string>
+    <string name="watch_ad_hd">មើលផ្សាយពាណិជ្ជកម្មសម្រាប់ HD / គ្មាន watermark</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">ដោះសោម្ដង។ គ្មានការជាវ។</string>
+    <string name="pro_benefit_ads">លុបផ្សាយពាណិជ្ជកម្មទាំងអស់</string>
+    <string name="pro_benefit_hd">នាំចេញ HD ដោយគ្មាន watermark</string>
+    <string name="pro_benefit_batch">បញ្ចូលជាក្រុម &amp; គ្មានដែនកំណត់</string>
+    <string name="buy_pro">ដោះសោ Pro</string>
+    <string name="already_pro">អ្នកមាន Pro រួចហើយ</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">ថយក្រោយ</string>
+    <string name="cd_history">ប្រវត្តិ</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">ថតទំព័រ</string>
+    <string name="cd_move_up">ផ្លាស់ទីឡើងលើ</string>
+    <string name="cd_move_down">ផ្លាស់ទីចុះក្រោម</string>
+    <string name="cd_remove">លុប</string>
+    <string name="continue_action">បន្ត</string>
+    <string name="add_more">បន្ថែមទៀត</string>
+    <string name="working">កំពុងដំណើរការ…</string>
+    <string name="share_with">ចែករំលែកជាមួយ</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">ថតពីកាមេរ៉ាទៅ PDF</string>
+    <string name="home_image_to_pdf_subtitle">រូបពីវិចិត្រសាលទៅ PDF មួយ</string>
+    <string name="home_compress_subtitle">បង្រួមទំហំឯកសាររូបភាព</string>
+    <string name="home_merge_subtitle">បញ្ចូល PDF ច្រើន</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">ថតទំព័រ</string>
+    <string name="camera_access_needed">ត្រូវការចូលប្រើកាមេរ៉ា</string>
+    <string name="camera_permission_message">អនុញ្ញាតការអនុញ្ញាតកាមេរ៉ាដើម្បីស្កេនឯកសារទៅជាទំព័រ PDF។</string>
+    <string name="grant_permission">ផ្ដល់ការអនុញ្ញាត</string>
+    <string name="capture_page">ថតទំព័រ</string>
+    <string name="capture_failed">ការថតបរាជ័យ</string>
+    <string name="scan_preview">មើលជាមុនការស្កេន</string>
+    <plurals name="pages_captured">
+        <item quantity="one">បានថត %d ទំព័រ</item>
+        <item quantity="other">បានថត %d ទំព័រ</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d ទំព័រ</item>
+        <item quantity="other">%d ទំព័រ</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">ការនាំចេញថ្មីៗ</string>
+    <string name="no_history_yet">មិនទាន់មានប្រវត្តិ</string>
+    <string name="no_history_message">PDF ដែលបាននាំចេញ និងរូបភាពដែលបានបង្ហាប់នឹងបង្ហាញនៅទីនេះ។</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">ម្ដង</string>
+    <string name="restore_purchase">ស្ដារការទិញ</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">ការទូទាត់មិនអាចប្រើបាន (%1$s)</string>
+    <string name="billing_disconnected">ការទូទាត់បានផ្ដាច់</string>
+    <string name="pro_unlocked_dev_fallback">បានដោះសោ Pro (dev fallback — កំណត់ផលិតផល Play សម្រាប់ចេញផ្សាយ)</string>
+    <string name="purchase_canceled">បានលុបចោលការទិញ</string>
+    <string name="pro_unlocked">បានដោះសោ Pro</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">រួចរាល់សម្រាប់ចែករំលែក</string>
+    <string name="export_saved_message">ឯកសាររបស់អ្នកបានរក្សាទុក។ ចែករំលែកឥឡូវ ឬដោះសោគុណភាព HD សម្រាប់ការនាំចេញបន្ទាប់។</string>
+    <string name="file_not_found">រកមិនឃើញឯកសារ</string>
+    <string name="hd_unlocked_export_again">បានដោះសោ HD — នាំចេញម្ដងទៀតសម្រាប់ HD / គ្មាន watermark</string>
+    <string name="hd_unlock_active">ការដោះសោ HD សកម្មសម្រាប់ការនាំចេញបន្ទាប់</string>
+    <string name="back_to_home">ត្រឡប់ទៅទំព័រដើម</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">បន្ថែមទំព័រដើម្បីបន្ត</string>
+    <string name="add_images">បន្ថែមរូបភាព</string>
+    <string name="export_pdf">នាំចេញ PDF</string>
+    <string name="hd_no_watermark_unlocked">បានដោះសោ HD / គ្មាន watermark</string>
+    <string name="no_pages_yet">មិនទាន់មានទំព័រ</string>
+    <string name="no_pages_message">បន្ថែមរូបថតដើម្បីតម្រៀប លុប និងនាំចេញជា PDF។</string>
+    <string name="page_number">ទំព័រ %1$d</string>
+    <string name="drag_order_with_arrows">តម្រៀបលំដាប់ដោយព្រួញ</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">បញ្ចូលឯកសារតាមលំដាប់</string>
+    <string name="add_pdfs">បន្ថែម PDF</string>
+    <string name="merge_action">បញ្ចូល</string>
+    <string name="no_pdfs_yet">មិនទាន់មាន PDF</string>
+    <string name="no_pdfs_message">ជ្រើសឯកសារ PDF យ៉ាងហោចណាស់ពីរដើម្បីបញ្ចូលជាឯកសារមួយ។</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">ឯកសារ %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">បានជ្រើស %d ឯកសារ</item>
+        <item quantity="other">បានជ្រើស %d ឯកសារ</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">បង្ហាប់រូបភាព</string>
+    <string name="compress_subtitle">តុល្យភាពគុណភាព និងទំហំ</string>
+    <string name="choose_image">ជ្រើសរូបភាព</string>
+    <string name="change_image">ប្ដូររូបភាព</string>
+    <string name="no_image_selected">មិនទាន់បានជ្រើសរូបភាព</string>
+    <string name="no_image_message">ជ្រើសរូបថតដើម្បីបង្ហាប់ និងនាំចេញជា JPEG។</string>
+    <string name="quality_percent">គុណភាព: %1$d%%</string>
+    <string name="quality_hint">គុណភាពទាបជាងបង្កើតឯកសារតូចជាង។</string>
+    <string name="compress_and_export">បង្ហាប់ &amp; នាំចេញ</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">បន្ថែមយ៉ាងហោចណាស់ឯកសារមួយ</string>
+    <string name="export_failed">ការនាំចេញបរាជ័យ</string>
+    <string name="error_unable_to_decode_image">មិនអាចឌិកូដរូបភាពបាន</string>
+</resources>

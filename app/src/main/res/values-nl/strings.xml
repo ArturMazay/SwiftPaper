@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Scannen, converteren, comprimeren, samenvoegen — klaar in seconden.</string>
+    <string name="action_scan">Scannen</string>
+    <string name="action_image_to_pdf">Afbeelding → PDF</string>
+    <string name="action_compress">Comprimeren</string>
+    <string name="action_merge">PDF samenvoegen</string>
+    <string name="history">Geschiedenis</string>
+    <string name="go_pro">Ga Pro</string>
+    <string name="export">Exporteren</string>
+    <string name="share">Delen</string>
+    <string name="watch_ad_hd">Bekijk advertentie voor HD / geen watermerk</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Eenmalige ontgrendeling. Geen abonnementen.</string>
+    <string name="pro_benefit_ads">Alle advertenties verwijderen</string>
+    <string name="pro_benefit_hd">HD-exports zonder watermerk</string>
+    <string name="pro_benefit_batch">Batch &amp; onbeperkte samenvoegingen</string>
+    <string name="buy_pro">Pro ontgrendelen</string>
+    <string name="already_pro">Je hebt Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Terug</string>
+    <string name="cd_history">Geschiedenis</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Pagina vastleggen</string>
+    <string name="cd_move_up">Omhoog</string>
+    <string name="cd_move_down">Omlaag</string>
+    <string name="cd_remove">Verwijderen</string>
+    <string name="continue_action">Doorgaan</string>
+    <string name="add_more">Meer toevoegen</string>
+    <string name="working">Bezig…</string>
+    <string name="share_with">Delen met</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Camera-opname naar PDF</string>
+    <string name="home_image_to_pdf_subtitle">Galerijfoto\'s naar één PDF</string>
+    <string name="home_compress_subtitle">Afbeeldingsbestand verkleinen</string>
+    <string name="home_merge_subtitle">Meerdere PDF\'s combineren</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Pagina\'s vastleggen</string>
+    <string name="camera_access_needed">Cameratoegang vereist</string>
+    <string name="camera_permission_message">Geef cameratoegang om documenten als PDF-pagina\'s te scannen.</string>
+    <string name="grant_permission">Toestemming geven</string>
+    <string name="capture_page">Pagina vastleggen</string>
+    <string name="capture_failed">Vastleggen mislukt</string>
+    <string name="scan_preview">Scanvoorbeeld</string>
+    <plurals name="pages_captured">
+        <item quantity="one">%d pagina vastgelegd</item>
+        <item quantity="other">%d pagina\'s vastgelegd</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d pagina</item>
+        <item quantity="other">%d pagina\'s</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Recente exports</string>
+    <string name="no_history_yet">Nog geen geschiedenis</string>
+    <string name="no_history_message">Geëxporteerde PDF\'s en gecomprimeerde afbeeldingen verschijnen hier.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Eenmalig</string>
+    <string name="restore_purchase">Aankoop herstellen</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Facturering niet beschikbaar (%1$s)</string>
+    <string name="billing_disconnected">Facturering verbroken</string>
+    <string name="pro_unlocked_dev_fallback">Pro ontgrendeld (dev-fallback — configureer Play-product voor release)</string>
+    <string name="purchase_canceled">Aankoop geannuleerd</string>
+    <string name="pro_unlocked">Pro ontgrendeld</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Klaar om te delen</string>
+    <string name="export_saved_message">Je bestand is opgeslagen. Deel het nu, of ontgrendel HD-kwaliteit voor je volgende export.</string>
+    <string name="file_not_found">Bestand niet gevonden</string>
+    <string name="hd_unlocked_export_again">HD ontgrendeld — exporteer opnieuw voor HD / geen watermerk</string>
+    <string name="hd_unlock_active">HD-ontgrendeling actief voor je volgende export</string>
+    <string name="back_to_home">Terug naar home</string>
+    <string name="export_default_name">export</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Voeg pagina\'s toe om door te gaan</string>
+    <string name="add_images">Afbeeldingen toevoegen</string>
+    <string name="export_pdf">PDF exporteren</string>
+    <string name="hd_no_watermark_unlocked">HD / geen watermerk ontgrendeld</string>
+    <string name="no_pages_yet">Nog geen pagina\'s</string>
+    <string name="no_pages_message">Voeg foto\'s toe om te herschikken, te verwijderen en als PDF te exporteren.</string>
+    <string name="page_number">Pagina %1$d</string>
+    <string name="drag_order_with_arrows">Volgorde wijzigen met pijlen</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Bestanden in volgorde combineren</string>
+    <string name="add_pdfs">PDF\'s toevoegen</string>
+    <string name="merge_action">Samenvoegen</string>
+    <string name="no_pdfs_yet">Nog geen PDF\'s</string>
+    <string name="no_pdfs_message">Kies minstens twee PDF-bestanden om tot één document samen te voegen.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">Bestand %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d bestand geselecteerd</item>
+        <item quantity="other">%d bestanden geselecteerd</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Afbeelding comprimeren</string>
+    <string name="compress_subtitle">Kwaliteit en grootte balanceren</string>
+    <string name="choose_image">Afbeelding kiezen</string>
+    <string name="change_image">Afbeelding wijzigen</string>
+    <string name="no_image_selected">Geen afbeelding geselecteerd</string>
+    <string name="no_image_message">Kies een foto om te comprimeren en als JPEG te exporteren.</string>
+    <string name="quality_percent">Kwaliteit: %1$d%%</string>
+    <string name="quality_hint">Lagere kwaliteit levert een kleiner bestand op.</string>
+    <string name="compress_and_export">Comprimeren &amp; exporteren</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Voeg minstens één bestand toe</string>
+    <string name="export_failed">Exporteren mislukt</string>
+    <string name="error_unable_to_decode_image">Afbeelding kan niet worden gedecodeerd</string>
+</resources>

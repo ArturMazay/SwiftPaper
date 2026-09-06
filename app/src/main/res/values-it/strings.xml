@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftPaper</string>
+    <string name="tagline">Scansiona, converti, comprimi, unisci — fatto in pochi secondi.</string>
+    <string name="action_scan">Scansiona</string>
+    <string name="action_image_to_pdf">Immagine → PDF</string>
+    <string name="action_compress">Comprimi</string>
+    <string name="action_merge">Unisci PDF</string>
+    <string name="history">Cronologia</string>
+    <string name="go_pro">Passa a Pro</string>
+    <string name="export">Esporta</string>
+    <string name="share">Condividi</string>
+    <string name="watch_ad_hd">Guarda un annuncio per HD / senza filigrana</string>
+    <string name="pro_title">SwiftPaper Pro</string>
+    <string name="pro_subtitle">Sblocco una tantum. Nessun abbonamento.</string>
+    <string name="pro_benefit_ads">Rimuovi tutte le pubblicità</string>
+    <string name="pro_benefit_hd">Esportazioni HD senza filigrana</string>
+    <string name="pro_benefit_batch">Unioni in batch e illimitate</string>
+    <string name="buy_pro">Sblocca Pro</string>
+    <string name="already_pro">Hai già Pro</string>
+    <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
+
+    <!-- Common actions / a11y -->
+    <string name="cd_back">Indietro</string>
+    <string name="cd_history">Cronologia</string>
+    <string name="cd_pro">Pro</string>
+    <string name="cd_capture_page">Acquisisci pagina</string>
+    <string name="cd_move_up">Sposta su</string>
+    <string name="cd_move_down">Sposta giù</string>
+    <string name="cd_remove">Rimuovi</string>
+    <string name="continue_action">Continua</string>
+    <string name="add_more">Aggiungi altro</string>
+    <string name="working">Elaborazione…</string>
+    <string name="share_with">Condividi con</string>
+
+    <!-- Home -->
+    <string name="home_scan_subtitle">Scatto con fotocamera in PDF</string>
+    <string name="home_image_to_pdf_subtitle">Foto della galleria in un PDF</string>
+    <string name="home_compress_subtitle">Riduci le dimensioni del file immagine</string>
+    <string name="home_merge_subtitle">Combina più PDF</string>
+
+    <!-- Scan -->
+    <string name="capture_pages">Acquisisci pagine</string>
+    <string name="camera_access_needed">Accesso alla fotocamera necessario</string>
+    <string name="camera_permission_message">Consenti l\'accesso alla fotocamera per scansionare documenti in pagine PDF.</string>
+    <string name="grant_permission">Concedi autorizzazione</string>
+    <string name="capture_page">Acquisisci pagina</string>
+    <string name="capture_failed">Acquisizione non riuscita</string>
+    <string name="scan_preview">Anteprima scansione</string>
+    <plurals name="pages_captured">
+        <item quantity="one">%d pagina acquisita</item>
+        <item quantity="other">%d pagine acquisite</item>
+    </plurals>
+    <plurals name="pages_count">
+        <item quantity="one">%d pagina</item>
+        <item quantity="other">%d pagine</item>
+    </plurals>
+
+    <!-- History -->
+    <string name="recent_exports">Esportazioni recenti</string>
+    <string name="no_history_yet">Nessuna cronologia ancora</string>
+    <string name="no_history_message">I PDF esportati e le immagini compresse appariranno qui.</string>
+
+    <!-- Paywall -->
+    <string name="price_one_time">Pagamento una tantum</string>
+    <string name="restore_purchase">Ripristina acquisto</string>
+    <string name="buy_pro_with_price">%1$s · %2$s</string>
+    <string name="billing_unavailable">Fatturazione non disponibile (%1$s)</string>
+    <string name="billing_disconnected">Fatturazione disconnessa</string>
+    <string name="pro_unlocked_dev_fallback">Pro sbloccato (fallback di sviluppo — configura il prodotto Play per il rilascio)</string>
+    <string name="purchase_canceled">Acquisto annullato</string>
+    <string name="pro_unlocked">Pro sbloccato</string>
+
+    <!-- Export -->
+    <string name="ready_to_share">Pronto per condividere</string>
+    <string name="export_saved_message">Il file è salvato. Condividilo ora oppure sblocca la qualità HD per la prossima esportazione.</string>
+    <string name="file_not_found">File non trovato</string>
+    <string name="hd_unlocked_export_again">HD sbloccato — esporta di nuovo per HD / senza filigrana</string>
+    <string name="hd_unlock_active">Sblocco HD attivo per la prossima esportazione</string>
+    <string name="back_to_home">Torna alla home</string>
+    <string name="export_default_name">esportazione</string>
+
+    <!-- Preview / image-to-PDF -->
+    <string name="add_pages_to_continue">Aggiungi pagine per continuare</string>
+    <string name="add_images">Aggiungi immagini</string>
+    <string name="export_pdf">Esporta PDF</string>
+    <string name="hd_no_watermark_unlocked">HD / senza filigrana sbloccato</string>
+    <string name="no_pages_yet">Nessuna pagina ancora</string>
+    <string name="no_pages_message">Aggiungi foto per riordinare, rimuovere ed esportare come PDF.</string>
+    <string name="page_number">Pagina %1$d</string>
+    <string name="drag_order_with_arrows">Riordina con le frecce</string>
+
+    <!-- Merge -->
+    <string name="merge_subtitle">Combina i file in ordine</string>
+    <string name="add_pdfs">Aggiungi PDF</string>
+    <string name="merge_action">Unisci</string>
+    <string name="no_pdfs_yet">Nessun PDF ancora</string>
+    <string name="no_pdfs_message">Scegli almeno due file PDF da unire in un documento.</string>
+    <string name="pdf_fallback_label">PDF %1$d</string>
+    <string name="file_number">File %1$d</string>
+    <plurals name="files_selected">
+        <item quantity="one">%d file selezionato</item>
+        <item quantity="other">%d file selezionati</item>
+    </plurals>
+
+    <!-- Compress -->
+    <string name="compress_image_title">Comprimi immagine</string>
+    <string name="compress_subtitle">Bilancia qualità e dimensioni</string>
+    <string name="choose_image">Scegli immagine</string>
+    <string name="change_image">Cambia immagine</string>
+    <string name="no_image_selected">Nessuna immagine selezionata</string>
+    <string name="no_image_message">Scegli una foto da comprimere ed esportare come JPEG.</string>
+    <string name="quality_percent">Qualità: %1$d%%</string>
+    <string name="quality_hint">Una qualità inferiore crea un file più piccolo.</string>
+    <string name="compress_and_export">Comprimi ed esporta</string>
+
+    <!-- Errors / job -->
+    <string name="add_at_least_one_file">Aggiungi almeno un file</string>
+    <string name="export_failed">Esportazione non riuscita</string>
+    <string name="error_unable_to_decode_image">Impossibile decodificare l\'immagine</string>
+</resources>
