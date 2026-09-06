@@ -53,7 +53,8 @@ fun SwiftPaperNavHost() {
         }
         composable(Routes.PAYWALL) {
             PaywallScreen(
-                billingManager = app.billingManager,
+                adsManager = app.adsManager,
+                userPrefs = app.userPrefs,
                 isProFlow = app.userPrefs.isPro,
                 onBack = { navController.popBackStack() }
             )

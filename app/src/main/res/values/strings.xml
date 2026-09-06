@@ -12,11 +12,17 @@
     <string name="share">Share</string>
     <string name="watch_ad_hd">Watch ad for HD / no watermark</string>
     <string name="pro_title">SwiftPaper Pro</string>
-    <string name="pro_subtitle">One-time unlock. No subscriptions.</string>
+    <string name="pro_subtitle">Watch a rewarded ad to unlock Pro. No payment.</string>
     <string name="pro_benefit_ads">Remove all ads</string>
     <string name="pro_benefit_hd">HD exports without watermark</string>
     <string name="pro_benefit_batch">Batch &amp; unlimited merges</string>
     <string name="buy_pro">Unlock Pro</string>
+    <string name="get_pro">Get Pro</string>
+    <string name="pro_ad_dialog_title">Rewarded ad</string>
+    <string name="pro_ad_dialog_message">An ad will be shown. Watch it to the end to unlock Pro.</string>
+    <string name="pro_ad_dialog_confirm">Show ad</string>
+    <string name="pro_ad_dialog_cancel">Cancel</string>
+    <string name="pro_ad_unavailable">Unable to show ad right now. Try again later.</string>
     <string name="already_pro">You have Pro</string>
     <string name="privacy_policy_url">https://swiftpaper.app/privacy</string>
 
